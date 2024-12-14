@@ -5,6 +5,8 @@ from src.config.config import load_config
 from src.utils.logger import setup_logger
 from src.utils.filters import JobFilter, ROMANIA_FILTER_CRITERIA
 from src.scrapers.weworkremotely import WeWorkRemotelyScraper
+from src.notifications.email_notifier import EmailNotifier
+from src.notifications.telegram_notifier import TelegramNotifier
 
 def main() -> None:
     """Main application entry point"""
@@ -22,6 +24,15 @@ def main() -> None:
         # Initialize job filter
         job_filter = JobFilter(ROMANIA_FILTER_CRITERIA)
         
+        # Initialize notifier (example with email)
+        notifier = EmailNotifier(
+            smtp_server=config.email.smtp_server,
+            smtp_port=config.email.smtp_port,
+            sender_email=config.email.sender_email,
+            sender_password=config.email.sender_password,
+            recipient_email=config.email.recipient_email
+        )
+        
         # Scrape jobs
         all_jobs = scraper.scrape_jobs(ROMANIA_FILTER_CRITERIA.keywords)
         logger.info(f"Found {len(all_jobs)} total jobs")
@@ -30,14 +41,9 @@ def main() -> None:
         filtered_jobs = job_filter.filter_jobs(all_jobs)
         logger.info(f"Found {len(filtered_jobs)} matching jobs for Romania")
         
-        # Print filtered jobs (for testing)
-        for job in filtered_jobs:
-            print("\n" + "="*50)
-            print(f"Title: {job.title}")
-            print(f"Company: {job.company}")
-            print(f"Location: {job.location}")
-            print(f"URL: {job.url}")
-            print("="*50)
+        # Send notifications if there are matching jobs
+        if filtered_jobs:
+            notifier.send_notification(filtered_jobs)
             
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
