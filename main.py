@@ -1,9 +1,9 @@
 """
 Job Alert Notifier - Main entry point
 """
-from typing import List
 from src.config.config import load_config
 from src.utils.logger import setup_logger
+from src.utils.filters import JobFilter, ROMANIA_FILTER_CRITERIA
 from src.scrapers.weworkremotely import WeWorkRemotelyScraper
 
 def main() -> None:
@@ -19,18 +19,25 @@ def main() -> None:
         # Initialize scraper
         scraper = WeWorkRemotelyScraper()
         
+        # Initialize job filter
+        job_filter = JobFilter(ROMANIA_FILTER_CRITERIA)
+        
         # Scrape jobs
-        jobs = scraper.scrape_jobs(config.scraper.keywords)
+        all_jobs = scraper.scrape_jobs(ROMANIA_FILTER_CRITERIA.keywords)
+        logger.info(f"Found {len(all_jobs)} total jobs")
         
-        logger.info(f"Found {len(jobs)} matching jobs")
+        # Filter jobs
+        filtered_jobs = job_filter.filter_jobs(all_jobs)
+        logger.info(f"Found {len(filtered_jobs)} matching jobs for Romania")
         
-        # Print jobs (for testing)
-        for job in jobs:
-            print(f"\nTitle: {job.title}")
+        # Print filtered jobs (for testing)
+        for job in filtered_jobs:
+            print("\n" + "="*50)
+            print(f"Title: {job.title}")
             print(f"Company: {job.company}")
             print(f"Location: {job.location}")
             print(f"URL: {job.url}")
-            print("-" * 50)
+            print("="*50)
             
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
