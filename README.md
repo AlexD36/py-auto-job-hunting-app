@@ -19,8 +19,7 @@ This app is designed to help job seekers stay on top of the job market without n
 - [Deployment](#deployment)
 - [Features & Roadmap](#features--roadmap)
 - [Contributing](#contributing)
-- [License](#license)
-
+  
 ---
 
 ## Technologies Used
