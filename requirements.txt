@@ -3,5 +3,5 @@ requests==2.31.0
 schedule==1.2.1
 python-dotenv==1.0.1
 lxml==5.3.0
-python-telegram-bot==13.7
+python-telegram-bot==20.7
 selenium==4.18.1

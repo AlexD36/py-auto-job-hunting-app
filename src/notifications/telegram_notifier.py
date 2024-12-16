@@ -4,14 +4,9 @@ Telegram notification implementation with enhanced error handling and type safet
 from typing import List, Optional
 import time
 from functools import wraps
-from telegram import Bot, ParseMode
-from telegram.error import (
-    TelegramError,
-    Unauthorized,
-    BadRequest,
-    NetworkError,
-    TimedOut
-)
+from telegram import Bot
+from telegram.constants import ParseMode
+from telegram.error import TelegramError, NetworkError, TimedOut
 from .base import BaseNotifier
 from src.scrapers.base import JobPosting
 
@@ -101,7 +96,7 @@ class TelegramNotifier(BaseNotifier):
         if auto_validate:
             self.validate_connection()
             
-    def validate_connection(self) -> bool:
+    async def validate_connection(self) -> bool:
         """
         Validate bot connection and chat ID by sending a test message
         
@@ -115,18 +110,18 @@ class TelegramNotifier(BaseNotifier):
             self.logger.info("Validating Telegram bot connection...")
             
             # Verify bot token by getting bot info
-            bot_info = self.bot.get_me()
+            bot_info = await self.bot.get_me()
             self.logger.info(f"Connected as bot: {bot_info.username}")
             
             # Send test message to verify chat ID
-            sent_message = self.bot.send_message(
+            sent_message = await self.bot.send_message(
                 chat_id=self.chat_id,
                 text=self.TEST_MESSAGE,
                 parse_mode=ParseMode.MARKDOWN
             )
             
             # Clean up test message
-            self.bot.delete_message(
+            await self.bot.delete_message(
                 chat_id=self.chat_id,
                 message_id=sent_message.message_id
             )
@@ -135,17 +130,8 @@ class TelegramNotifier(BaseNotifier):
             self.logger.info("Telegram bot validation successful")
             return True
             
-        except Unauthorized as e:
-            self.logger.error("Bot token is invalid")
-            raise TelegramNotifierError(f"Invalid bot token: {str(e)}")
-        except BadRequest as e:
-            self.logger.error("Invalid chat ID or bot permissions issue")
-            raise TelegramNotifierError(f"Chat ID validation failed: {str(e)}")
-        except NetworkError as e:
-            self.logger.error("Network error during validation")
-            raise TelegramNotifierError(f"Network error: {str(e)}")
         except TelegramError as e:
-            self.logger.error("Telegram API error during validation")
+            self.logger.error(f"Telegram API error during validation: {str(e)}")
             raise TelegramNotifierError(f"Validation failed: {str(e)}")
             
     @retry_on_telegram_error(max_retries=3, delay=2)
@@ -171,11 +157,6 @@ class TelegramNotifier(BaseNotifier):
             )
             self.logger.debug(f"Successfully sent message chunk of length {len(chunk)}")
             
-        except BadRequest as e:
-            raise TelegramNotifierError(f"Invalid message format: {str(e)}")
-        except Unauthorized as e:
-            self.initialized = False
-            raise TelegramNotifierError(f"Bot unauthorized: {str(e)}")
         except TelegramError as e:
             raise TelegramNotifierError(f"Failed to send message: {str(e)}")
             
@@ -364,7 +345,7 @@ class TelegramNotifier(BaseNotifier):
                 # Build job section with proper Markdown formatting
                 job_section = [
                     f"*{title}*",
-                    f"��� Company: {company}",
+                    f" Company: {company}",
                     f"📍 Location: {location}",
                     f"💰 Salary: {salary}"
                 ]
