@@ -372,7 +372,6 @@ class TelegramNotifier(BaseNotifier):
                 # Add job link if available
                 if job.url:
                     job_section.append(f"🔗 [View Job]({job.url})")
-                    
                 # Add job description preview if available
                 if job.description:
                     # Truncate description to prevent overly long messages

@@ -265,28 +265,45 @@ class JobFilter:
 # Default criteria for Romanian jobs
 ROMANIA_FILTER_CRITERIA = FilterCriteria(
     keywords=[
-        "Python",
-        "Software Developer",
-        "Data Scientist",
-        "Machine Learning",
+        # Internship-related keywords
+        "Intern",
         "Internship",
-        "Romania",
+        "Student",
+        "Trainee",
+        "Graduate Program",
+        "Student Program",
+        # Programming-related keywords
         "Developer",
-        "Engineer"
+        "Software",
+        "Programming",
+        "Engineer",
+        "Development",
+        "IT",
+        "Tech",
+        "Application",
+        "Web",
+        "Mobile",
+        "Full Stack",
+        "Frontend",
+        "Backend",
+        "DevOps",
+        "QA"
     ],
     locations=[
         "Bucharest",
-        "București", # Romanian spelling
+        "București",
         "Cluj-Napoca",
         "Cluj",
         "Timișoara",
         "Iași",
         "Brașov",
         "Constanța",
-        "Remote"
+        "Remote",
+        "Hybrid",
+        "Romania"
     ],
     include_unspecified_locations=True,
-    max_days_old=30,  # Only show jobs from last 30 days
+    max_days_old=30,
     exact_match=False,
     use_regex=False
 ) 

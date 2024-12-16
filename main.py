@@ -7,6 +7,7 @@ from src.utils.filters import JobFilter, ROMANIA_FILTER_CRITERIA
 from src.scrapers.weworkremotely import WeWorkRemotelyScraper
 from src.notifications.email_notifier import EmailNotifier
 from src.notifications.telegram_notifier import TelegramNotifier
+import os
 
 def main() -> None:
     """Main application entry point"""
@@ -33,6 +34,12 @@ def main() -> None:
             recipient_email=config.email.recipient_email
         )
         
+        # Initialize notifiers
+        telegram_notifier = TelegramNotifier(
+            bot_token=os.getenv("TELEGRAM_BOT_TOKEN"),
+            chat_id=os.getenv("TELEGRAM_CHAT_ID")
+        )
+        
         # Scrape jobs
         all_jobs = scraper.scrape_jobs(ROMANIA_FILTER_CRITERIA.keywords)
         logger.info(f"Found {len(all_jobs)} total jobs")
@@ -44,6 +51,7 @@ def main() -> None:
         # Send notifications if there are matching jobs
         if filtered_jobs:
             notifier.send_notification(filtered_jobs)
+            telegram_notifier.send_notification(filtered_jobs)
             
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
