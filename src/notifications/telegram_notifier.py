@@ -118,6 +118,10 @@ class TelegramNotifier(BaseNotifier):
             bot_info = await self.bot.get_me()
             self.logger.info(f"Connected as bot: {bot_info.username}")
             
+            # Verify chat ID format
+            if not self.chat_id.startswith('-') and not self.chat_id.isdigit():
+                raise TelegramNotifierError("Invalid chat ID format. Must be a number or start with '-' for groups")
+            
             # Send test message to verify chat ID
             sent_message = await self.bot.send_message(
                 chat_id=self.chat_id,
@@ -137,6 +141,12 @@ class TelegramNotifier(BaseNotifier):
             
         except TelegramError as e:
             self.logger.error(f"Telegram API error during validation: {str(e)}")
+            if "Forbidden" in str(e):
+                raise TelegramNotifierError(
+                    "Bot cannot send messages to the specified chat ID. "
+                    "Make sure you've started a chat with the bot and "
+                    "you're using a valid user or group chat ID, not a bot ID."
+                )
             raise TelegramNotifierError(f"Validation failed: {str(e)}")
             
     @retry_on_telegram_error(max_retries=3, delay=2)

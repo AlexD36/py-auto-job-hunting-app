@@ -18,3 +18,30 @@
 2024-12-17 01:47:15,235 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
 2024-12-17 01:47:15,319 - JobAlertNotifier - ERROR - [telegram_notifier:139] - Telegram API error during validation: Forbidden: bots can't send messages to bots
 2024-12-17 01:47:15,319 - JobAlertNotifier - ERROR - [main:75] - An error occurred: Validation failed: Forbidden: bots can't send messages to bots
+2024-12-17 01:51:59,151 - JobAlertNotifier - INFO - [main:31] - Starting Job Alert Notifier
+2024-12-17 01:51:59,151 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 21 keywords and 11 locations
+2024-12-17 01:51:59,152 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 01:51:59,152 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 01:51:59,152 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 01:51:59,707 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 01:51:59,937 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 01:52:00,058 - JobAlertNotifier - ERROR - [telegram_notifier:139] - Telegram API error during validation: Forbidden: bots can't send messages to bots
+2024-12-17 01:52:00,058 - JobAlertNotifier - ERROR - [main:75] - An error occurred: Validation failed: Forbidden: bots can't send messages to bots
+2024-12-17 01:53:09,938 - JobAlertNotifier - INFO - [main:31] - Starting Job Alert Notifier
+2024-12-17 01:53:09,939 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 21 keywords and 11 locations
+2024-12-17 01:53:09,939 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 01:53:09,939 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 01:53:09,939 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 01:53:10,504 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 01:53:10,685 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 01:53:10,742 - JobAlertNotifier - ERROR - [telegram_notifier:139] - Telegram API error during validation: Forbidden: bots can't send messages to bots
+2024-12-17 01:53:10,742 - JobAlertNotifier - ERROR - [main:75] - An error occurred: Validation failed: Forbidden: bots can't send messages to bots
+2024-12-17 01:54:34,142 - JobAlertNotifier - INFO - [main:31] - Starting Job Alert Notifier
+2024-12-17 01:54:34,143 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 21 keywords and 11 locations
+2024-12-17 01:54:34,143 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 01:54:34,143 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 01:54:34,144 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 01:54:34,686 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 01:54:34,885 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 01:54:35,035 - JobAlertNotifier - ERROR - [telegram_notifier:143] - Telegram API error during validation: Forbidden: bots can't send messages to bots
+2024-12-17 01:54:35,036 - JobAlertNotifier - ERROR - [main:75] - An error occurred: Bot cannot send messages to the specified chat ID. Make sure you've started a chat with the bot and you're using a valid user or group chat ID, not a bot ID.
