@@ -5,7 +5,7 @@ from src.config.config import load_config
 from src.utils.logger import setup_logger
 from src.utils.filters import JobFilter, ROMANIA_FILTER_CRITERIA
 from src.scrapers.weworkremotely import WeWorkRemotelyScraper
-from src.scrapers.base_scraper import BaseScraper
+from src.scrapers.base import BaseScraper
 from src.notifications.email_notifier import EmailNotifier
 from src.notifications.telegram_notifier import TelegramNotifier
 from typing import List, Type
