@@ -66,7 +66,7 @@ class TelegramNotifier(BaseNotifier):
     MAX_MESSAGE_LENGTH: int = 4096
     TEST_MESSAGE: str = "🤖 Bot successfully initialized and connected!"
     
-    def __init__(self, bot_token: str, chat_id: str, auto_validate: bool = True) -> None:
+    async def __init__(self, bot_token: str, chat_id: str, auto_validate: bool = True) -> None:
         """
         Initialize Telegram notifier with validation
         
@@ -94,7 +94,7 @@ class TelegramNotifier(BaseNotifier):
         
         # Perform initial validation if requested
         if auto_validate:
-            self.validate_connection()
+            await self.validate_connection()
             
     async def validate_connection(self) -> bool:
         """

@@ -8,8 +8,9 @@ from src.scrapers.weworkremotely import WeWorkRemotelyScraper
 from src.notifications.email_notifier import EmailNotifier
 from src.notifications.telegram_notifier import TelegramNotifier
 import os
+import asyncio
 
-def main() -> None:
+async def main() -> None:
     """Main application entry point"""
     # Load configuration
     config = load_config()
@@ -35,7 +36,7 @@ def main() -> None:
         )
         
         # Initialize notifiers
-        telegram_notifier = TelegramNotifier(
+        telegram_notifier = await TelegramNotifier(
             bot_token=os.getenv("TELEGRAM_BOT_TOKEN"),
             chat_id=os.getenv("TELEGRAM_CHAT_ID")
         )
@@ -58,4 +59,4 @@ def main() -> None:
         raise
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
