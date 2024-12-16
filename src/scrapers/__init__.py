@@ -3,11 +3,10 @@ Scraper factory and initialization
 """
 from typing import List
 from .base import BaseScraper
-from .indeed import IndeedScraper
-from .bestjobs import BestJobsRoScraper
+from .bestjobs_ro import BestJobsRoScraper
 from .weworkremotely import WeWorkRemotelyScraper
-from .ejobs import EJobsRoScraper
-from .hipo import HipoRoScraper
+from .ejobs_ro import EJobsRoScraper
+from .hipo_ro import HipoRoScraper
 from .linkedin import LinkedInScraper
 from .remoteco import RemoteCoScraper
 
@@ -19,7 +18,6 @@ def get_all_scrapers() -> List[BaseScraper]:
         List of scraper instances
     """
     return [
-        IndeedScraper(),
         BestJobsRoScraper(),
         WeWorkRemotelyScraper(),
         EJobsRoScraper(),
