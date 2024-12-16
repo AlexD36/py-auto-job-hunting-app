@@ -5,3 +5,7 @@
 2024-12-17 01:29:39,393 - JobAlertNotifier - INFO - [telegram_notifier:84] - Initializing Telegram notifier...
 2024-12-17 01:29:39,969 - JobAlertNotifier - INFO - [telegram_notifier:110] - Validating Telegram bot connection...
 2024-12-17 01:29:39,969 - JobAlertNotifier - ERROR - [main:57] - An error occurred: 'coroutine' object has no attribute 'username'
+2024-12-17 01:42:53,308 - JobAlertNotifier - INFO - [main:20] - Starting Job Alert Notifier
+2024-12-17 01:42:53,309 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 21 keywords and 11 locations
+2024-12-17 01:42:53,309 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 01:42:53,313 - JobAlertNotifier - ERROR - [main:58] - An error occurred: __init__() should return None, not 'coroutine'

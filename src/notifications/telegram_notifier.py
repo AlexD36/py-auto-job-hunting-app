@@ -66,19 +66,8 @@ class TelegramNotifier(BaseNotifier):
     MAX_MESSAGE_LENGTH: int = 4096
     TEST_MESSAGE: str = "🤖 Bot successfully initialized and connected!"
     
-    async def __init__(self, bot_token: str, chat_id: str, auto_validate: bool = True) -> None:
-        """
-        Initialize Telegram notifier with validation
-        
-        Args:
-            bot_token: Telegram bot API token
-            chat_id: Telegram chat ID to send messages to
-            auto_validate: Whether to validate connection on initialization
-            
-        Raises:
-            ValueError: If bot_token or chat_id is empty
-            TelegramNotifierError: If bot initialization or validation fails
-        """
+    def __init__(self, bot_token: str, chat_id: str) -> None:
+        """Initialize Telegram notifier"""
         super().__init__()
         
         self.logger.info("Initializing Telegram notifier...")
@@ -91,11 +80,27 @@ class TelegramNotifier(BaseNotifier):
         self.bot = Bot(token=bot_token)
         self.chat_id = chat_id
         self.initialized = False
+
+    @classmethod
+    async def create(cls, bot_token: str, chat_id: str) -> "TelegramNotifier":
+        """
+        Async factory method to create and initialize a TelegramNotifier
         
-        # Perform initial validation if requested
-        if auto_validate:
-            await self.validate_connection()
+        Args:
+            bot_token: Telegram bot API token
+            chat_id: Telegram chat ID to send messages to
             
+        Returns:
+            TelegramNotifier: Initialized notifier instance
+            
+        Raises:
+            ValueError: If bot_token or chat_id is empty
+            TelegramNotifierError: If bot initialization or validation fails
+        """
+        notifier = cls(bot_token, chat_id)
+        await notifier.validate_connection()
+        return notifier
+    
     async def validate_connection(self) -> bool:
         """
         Validate bot connection and chat ID by sending a test message

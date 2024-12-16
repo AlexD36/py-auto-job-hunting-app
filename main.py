@@ -5,10 +5,21 @@ from src.config.config import load_config
 from src.utils.logger import setup_logger
 from src.utils.filters import JobFilter, ROMANIA_FILTER_CRITERIA
 from src.scrapers.weworkremotely import WeWorkRemotelyScraper
+from src.scrapers.base_scraper import BaseScraper
 from src.notifications.email_notifier import EmailNotifier
 from src.notifications.telegram_notifier import TelegramNotifier
+from typing import List, Type
 import os
 import asyncio
+
+# Define all available scrapers
+SCRAPERS: List[Type[BaseScraper]] = [
+    WeWorkRemotelyScraper,
+    # Add other scrapers here as they're implemented:
+    # LinkedInScraper,
+    # IndeedScraper,
+    # etc.
+]
 
 async def main() -> None:
     """Main application entry point"""
@@ -20,14 +31,11 @@ async def main() -> None:
     logger.info("Starting Job Alert Notifier")
     
     try:
-        # Initialize scraper
-        scraper = WeWorkRemotelyScraper()
-        
         # Initialize job filter
         job_filter = JobFilter(ROMANIA_FILTER_CRITERIA)
         
-        # Initialize notifier (example with email)
-        notifier = EmailNotifier(
+        # Initialize notifiers
+        email_notifier = EmailNotifier(
             smtp_server=config.email.smtp_server,
             smtp_port=config.email.smtp_port,
             sender_email=config.email.sender_email,
@@ -35,15 +43,24 @@ async def main() -> None:
             recipient_email=config.email.recipient_email
         )
         
-        # Initialize notifiers
-        telegram_notifier = await TelegramNotifier(
+        telegram_notifier = await TelegramNotifier.create(
             bot_token=os.getenv("TELEGRAM_BOT_TOKEN"),
             chat_id=os.getenv("TELEGRAM_CHAT_ID")
         )
         
-        # Scrape jobs
-        all_jobs = scraper.scrape_jobs(ROMANIA_FILTER_CRITERIA.keywords)
-        logger.info(f"Found {len(all_jobs)} total jobs")
+        # Aggregate jobs from all scrapers
+        all_jobs = []
+        for scraper_class in SCRAPERS:
+            try:
+                scraper = scraper_class()
+                jobs = scraper.scrape_jobs(ROMANIA_FILTER_CRITERIA.keywords)
+                logger.info(f"Found {len(jobs)} jobs from {scraper_class.__name__}")
+                all_jobs.extend(jobs)
+            except Exception as scraper_error:
+                logger.error(f"Error with {scraper_class.__name__}: {str(scraper_error)}")
+                continue
+        
+        logger.info(f"Found {len(all_jobs)} total jobs across all sources")
         
         # Filter jobs
         filtered_jobs = job_filter.filter_jobs(all_jobs)
@@ -51,7 +68,7 @@ async def main() -> None:
         
         # Send notifications if there are matching jobs
         if filtered_jobs:
-            notifier.send_notification(filtered_jobs)
+            email_notifier.send_notification(filtered_jobs)
             telegram_notifier.send_notification(filtered_jobs)
             
     except Exception as e:
