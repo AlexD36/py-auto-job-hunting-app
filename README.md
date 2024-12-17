@@ -4,8 +4,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4.12.3-yellowgreen)
 ![Requests](https://img.shields.io/badge/Requests-2.31.0-ff69b4)
-![Schedule](https://img.shields.io/badge/Schedule-1.2.1-lightgrey)
-![Dotenv](https://img.shields.io/badge/Dotenv-1.0.1-brightgreen)
 ![LXML](https://img.shields.io/badge/LXML-5.1.0-orange)
 ![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-13.7-blueviolet)
 
