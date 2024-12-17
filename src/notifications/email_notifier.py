@@ -77,29 +77,29 @@ class EmailNotifier(BaseNotifier):
     <html>
     <head>
         <style>
-            body { font-family: Arial, sans-serif; line-height: 1.6; }
-            table { border-collapse: collapse; width: 100%; margin: 20px 0; }
-            th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
-            th { background-color: #f5f5f5; }
-            tr:hover { background-color: #f9f9f9; }
-            .job-title { color: #2c5282; font-weight: bold; }
-            .company-name { color: #444; }
-            .location { color: #666; }
-            .date { color: #888; font-size: 0.9em; }
-            .description { color: #444; margin: 10px 0; }
-            .view-job { 
+            body {{ font-family: Arial, sans-serif; line-height: 1.6; }}
+            table {{ border-collapse: collapse; width: 100%; margin: 20px 0; }}
+            th, td {{ padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }}
+            th {{ background-color: #f5f5f5; }}
+            tr:hover {{ background-color: #f9f9f9; }}
+            .job-title {{ color: #2c5282; font-weight: bold; }}
+            .company-name {{ color: #444; }}
+            .location {{ color: #666; }}
+            .date {{ color: #888; font-size: 0.9em; }}
+            .description {{ color: #444; margin: 10px 0; }}
+            .view-job {{ 
                 display: inline-block;
                 padding: 5px 10px;
                 background-color: #3182ce;
                 color: white;
                 text-decoration: none;
                 border-radius: 4px;
-            }
-            .view-job:hover {
+            }}
+            .view-job:hover {{
                 background-color: #2b6cb0;
-            }
-            .header { margin-bottom: 20px; }
-            .footer { margin-top: 20px; color: #666; font-size: 0.9em; }
+            }}
+            .header {{ margin-bottom: 20px; }}
+            .footer {{ margin-top: 20px; color: #666; font-size: 0.9em; }}
         </style>
     </head>
     <body>

@@ -337,3 +337,42 @@
 2024-12-17 13:15:50,913 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
 2024-12-17 13:15:50,914 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 0 matches
 2024-12-17 13:15:50,914 - JobAlertNotifier - INFO - [main:74] - Found 0 matching jobs for Romania
+2024-12-17 13:17:05,310 - JobAlertNotifier - INFO - [main:37] - Starting Job Alert Notifier
+2024-12-17 13:17:05,310 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 32 keywords and 22 locations
+2024-12-17 13:17:05,311 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 13:17:05,311 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 13:17:05,311 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 13:17:05,910 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 13:17:06,107 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 13:17:06,360 - JobAlertNotifier - INFO - [telegram_notifier:139] - Telegram bot validation successful
+2024-12-17 13:17:06,360 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 13:17:26,956 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 13:17:26,956 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 13:17:27,405 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 13:17:27,860 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 13:17:28,331 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Stagiar
+2024-12-17 13:17:30,702 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltator
+2024-12-17 13:17:31,158 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programator
+2024-12-17 13:17:31,615 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer software
+2024-12-17 13:17:32,104 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programare
+2024-12-17 13:17:32,580 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer
+2024-12-17 13:17:33,040 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltare
+2024-12-17 13:17:33,509 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnologie
+2024-12-17 13:17:34,957 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 13:18:04,740 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnician IT
+2024-12-17 13:18:05,199 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web
+2024-12-17 13:18:05,682 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 13:18:06,159 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 13:18:06,617 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 13:18:07,092 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Testare software
+2024-12-17 13:18:07,577 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 13:18:08,066 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 13:18:11,018 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Administrare sisteme
+2024-12-17 13:18:11,506 - JobAlertNotifier - INFO - [main:64] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 13:18:11,506 - JobAlertNotifier - INFO - [main:70] - Found 23 total jobs across all sources
+2024-12-17 13:18:11,506 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
+2024-12-17 13:18:11,507 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 8 matches
+2024-12-17 13:18:11,507 - JobAlertNotifier - INFO - [main:74] - Found 8 matching jobs for Romania
+2024-12-17 13:18:11,508 - JobAlertNotifier - ERROR - [email_notifier:234] - Error formatting email message: ' font-family'
+2024-12-17 13:18:11,508 - JobAlertNotifier - ERROR - [email_notifier:348] - Unexpected error: Failed to format email message: ' font-family'
+2024-12-17 13:18:11,508 - JobAlertNotifier - ERROR - [main:82] - An error occurred: Failed to send email notification: Failed to format email message: ' font-family'
