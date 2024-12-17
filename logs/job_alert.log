@@ -697,3 +697,5 @@
 2024-12-17 18:58:08,480 - JobAlertNotifier - INFO - [main:80] - Removed 0 duplicate jobs
 2024-12-17 18:58:09,577 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 7 jobs
 2024-12-17 19:05:06,602 - JobAlertNotifier - INFO - [main:37] - Starting Job Alert Notifier
+2024-12-17 19:07:33,316 - JobAlertNotifier - INFO - [main:37] - Starting Job Alert Notifier
+2024-12-17 19:13:02,195 - JobAlertNotifier - INFO - [main:37] - Starting Job Alert Notifier

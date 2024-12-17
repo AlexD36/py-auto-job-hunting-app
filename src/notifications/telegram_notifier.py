@@ -9,6 +9,7 @@ from telegram.constants import ParseMode
 from telegram.error import TelegramError, NetworkError, TimedOut
 from .base import BaseNotifier
 from src.scrapers.base import JobPosting
+import html
 
 def retry_on_telegram_error(max_retries: int = 3, delay: int = 2):
     """
@@ -65,6 +66,7 @@ class TelegramNotifier(BaseNotifier):
     
     MAX_MESSAGE_LENGTH: int = 4096
     TEST_MESSAGE: str = "🤖 Bot successfully initialized and connected!"
+    CHUNK_SIZE: int = 5  # Number of jobs per message
     
     def __init__(self, bot_token: str, chat_id: str) -> None:
         """Initialize Telegram notifier"""
@@ -185,23 +187,14 @@ class TelegramNotifier(BaseNotifier):
         if not jobs:
             return
         
-        valid_jobs = []
-        for job in jobs:
-            if not hasattr(job, "salary"):
-                self.logger.warning(f"Skipping malformed job posting: {job.title} - Missing salary")
-                continue
-            valid_jobs.append(job)
+        self.logger.info(f"Sending notification for {len(jobs)} jobs in {(len(jobs) + self.CHUNK_SIZE - 1) // self.CHUNK_SIZE} chunks")
         
-        if not valid_jobs:
-            return
-        
-        chunks = [valid_jobs[i:i + self.CHUNK_SIZE] for i in range(0, len(valid_jobs), self.CHUNK_SIZE)]
-        self.logger.info(f"Sending notification for {len(valid_jobs)} jobs in {len(chunks)} chunks")
+        # Process jobs in chunks to avoid message length limits
+        chunks = [jobs[i:i + self.CHUNK_SIZE] for i in range(0, len(jobs), self.CHUNK_SIZE)]
         
         for chunk in chunks:
             message = self._format_jobs(chunk)
             try:
-                # Properly await the send_message coroutine
                 await self.bot.send_message(
                     chat_id=self.chat_id,
                     text=message,
@@ -455,3 +448,32 @@ class TelegramNotifier(BaseNotifier):
         except Exception as e:
             self.logger.error(f"Markdown validation error: {str(e)}")
             return False
+
+    def _format_job(self, job: JobPosting) -> str:
+        """Format a single job posting for Telegram message.
+        
+        Args:
+            job (JobPosting): Job posting to format
+            
+        Returns:
+            str: Formatted job posting text
+        """
+        # Base job information
+        job_text = [
+            f"<b>{html.escape(job.title)}</b>",
+            f"🏢 Company: {html.escape(job.company)}",
+            f"📍 Location: {html.escape(job.location)}",
+        ]
+        
+        # Add salary if available
+        if hasattr(job, "salary") and job.salary:
+            job_text.append(f"💰 Salary: {html.escape(job.salary)}")
+        
+        # Add posting date if available
+        if hasattr(job, "posted_date") and job.posted_date:
+            job_text.append(f"📅 Posted: {job.posted_date}")
+        
+        # Add job URL
+        job_text.append(f"\n🔗 <a href='{job.url}'>Apply Here</a>")
+        
+        return "\n".join(job_text)
