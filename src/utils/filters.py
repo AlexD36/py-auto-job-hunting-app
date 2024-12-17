@@ -262,35 +262,43 @@ class JobFilter:
             f"Filtered out: {job.title} ({job.company}) - {reason}"
         )
 
-# Default criteria for Romanian jobs
+# Filter criteria for Romanian jobs
 ROMANIA_FILTER_CRITERIA = FilterCriteria(
     keywords=[
-        # Internship-related keywords
+        # Internship-related keywords in Romanian
         "Intern",
         "Internship",
         "Student",
         "Trainee",
-        "Graduate Program",
-        "Student Program",
-        # Programming-related keywords
-        "Developer",
-        "Software",
-        "Programming",
-        "Engineer",
-        "Development",
+        "Stagiar",
+        "Practică",
+        "Program pentru absolvenți",
+        "Program pentru studenți",
+        "Pregătire profesională",
+        
+        # Programming-related keywords in Romanian
+        "Dezvoltator",
+        "Programator",
+        "Inginer software",
+        "Programare",
+        "Inginer",
+        "Dezvoltare",
+        "Tehnologie",
+        "Aplicație",
+        "Aplicații mobile",
         "IT",
-        "Tech",
-        "Application",
+        "Tehnician IT",
         "Web",
-        "Mobile",
-        "Full Stack",
         "Frontend",
         "Backend",
+        "Full Stack",
+        "Testare software",
+        "QA",
         "DevOps",
-        "QA"
+        "Administrare sisteme",
     ],
     locations=[
-        "Bucharest",
+        # Major cities in Romania
         "București",
         "Cluj-Napoca",
         "Cluj",
@@ -298,12 +306,92 @@ ROMANIA_FILTER_CRITERIA = FilterCriteria(
         "Iași",
         "Brașov",
         "Constanța",
-        "Remote",
-        "Hybrid",
-        "Romania"
+        "Sibiu",
+        "Oradea",
+        "Craiova",
+        "Arad",
+        
+        # Countrywide and alternative keywords
+        "Romania",
+        "România",
+        "Remote România",
     ],
     include_unspecified_locations=True,
     max_days_old=30,
+    exact_match=False,
+    use_regex=False
+)
+
+# Filter criteria for international jobs
+INTERNATIONAL_FILTER_CRITERIA = FilterCriteria(
+    keywords=[
+        # Internship-related keywords in English
+        "Intern",
+        "Internship",
+        "Student",
+        "Trainee",
+        "Graduate Program",
+        "Student Program",
+        "Entry Level",
+        "Trainee Program",
+
+        # Programming-related keywords in English
+        "Developer",
+        "Software Engineer",
+        "Software Developer",
+        "Programming",
+        "Engineer",
+        "Software Development",
+        "IT",
+        "Tech",
+        "Application",
+        "Web Developer",
+        "Mobile Developer",
+        "Full Stack",
+        "Frontend",
+        "Backend",
+        "DevOps",
+        "QA",
+        "Quality Assurance",
+        "Test Engineer",
+        "Cloud Engineer",
+        "System Administrator",
+        "Cybersecurity",
+        "AI Developer",
+        "Data Scientist",
+        "Machine Learning",
+    ],
+    locations=[
+        # Location types
+        "Remote",
+        "Remote Work",
+        "Hybrid",
+        "On-site",
+        "Freelance",
+
+        # Countries
+        "United States",
+        "USA",
+        "United Kingdom",
+        "UK",
+        "Germany",
+        "Netherlands",
+        "Sweden",
+        "Denmark",
+        "Norway",
+        "Finland",
+        "France",
+        "Canada",
+        "Australia",
+
+        # Regions
+        "Europe",
+        "European Union",
+        "North America",
+        "Global",
+    ],
+    include_unspecified_locations=False,  # More strict for international jobs
+    max_days_old=14,  # Shorter window for international positions
     exact_match=False,
     use_regex=False
 ) 

@@ -4,7 +4,12 @@ Job Alert Notifier - Main entry point
 from src.config.config import load_config
 from src.utils.logger import setup_logger
 from src.utils.filters import JobFilter, ROMANIA_FILTER_CRITERIA
+from src.scrapers.remoteco import RemoteCoScraper
+from src.scrapers.linkedin import LinkedInScraper
 from src.scrapers.weworkremotely import WeWorkRemotelyScraper
+from src.scrapers.ejobs_ro import EJobsRoScraper
+from src.scrapers.hipo_ro import HipoRoScraper
+from src.scrapers.bestjobs_ro import BestJobsRoScraper
 from src.scrapers.base import BaseScraper
 from src.notifications.email_notifier import EmailNotifier
 from src.notifications.telegram_notifier import TelegramNotifier
@@ -14,11 +19,12 @@ import asyncio
 
 # Define all available scrapers
 SCRAPERS: List[Type[BaseScraper]] = [
+    RemoteCoScraper,
+    LinkedInScraper,
     WeWorkRemotelyScraper,
-    # Add other scrapers here as they're implemented:
-    # LinkedInScraper,
-    # IndeedScraper,
-    # etc.
+    EJobsRoScraper,
+    HipoRoScraper,
+    BestJobsRoScraper
 ]
 
 async def main() -> None:

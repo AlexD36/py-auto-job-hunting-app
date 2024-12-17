@@ -45,3 +45,259 @@
 2024-12-17 01:54:34,885 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
 2024-12-17 01:54:35,035 - JobAlertNotifier - ERROR - [telegram_notifier:143] - Telegram API error during validation: Forbidden: bots can't send messages to bots
 2024-12-17 01:54:35,036 - JobAlertNotifier - ERROR - [main:75] - An error occurred: Bot cannot send messages to the specified chat ID. Make sure you've started a chat with the bot and you're using a valid user or group chat ID, not a bot ID.
+2024-12-17 01:57:45,529 - JobAlertNotifier - INFO - [main:31] - Starting Job Alert Notifier
+2024-12-17 01:57:45,530 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 21 keywords and 11 locations
+2024-12-17 01:57:45,530 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 01:57:45,530 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 01:57:45,531 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 01:57:46,127 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 01:57:46,311 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 01:57:46,488 - JobAlertNotifier - INFO - [telegram_notifier:139] - Telegram bot validation successful
+2024-12-17 01:57:46,488 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 01:58:07,023 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 01:58:07,023 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 01:58:07,487 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 01:58:07,936 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 01:58:08,441 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Graduate Program
+2024-12-17 01:58:08,908 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student Program
+2024-12-17 01:58:09,377 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Developer
+2024-12-17 01:58:09,841 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software
+2024-12-17 01:58:10,314 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programming
+2024-12-17 01:58:10,771 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Engineer
+2024-12-17 01:58:11,228 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Development
+2024-12-17 01:58:11,693 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 01:58:41,317 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tech
+2024-12-17 01:58:41,800 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Application
+2024-12-17 01:58:42,270 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web
+2024-12-17 01:58:42,750 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Mobile
+2024-12-17 01:58:43,215 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 01:58:43,683 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 01:58:44,219 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 01:58:44,705 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 01:58:47,733 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 01:58:48,218 - JobAlertNotifier - INFO - [main:57] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 01:58:48,218 - JobAlertNotifier - INFO - [main:63] - Found 23 total jobs across all sources
+2024-12-17 01:58:48,218 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
+2024-12-17 01:58:48,219 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 0 matches
+2024-12-17 01:58:48,219 - JobAlertNotifier - INFO - [main:67] - Found 0 matching jobs for Romania
+2024-12-17 02:01:58,699 - JobAlertNotifier - INFO - [main:31] - Starting Job Alert Notifier
+2024-12-17 02:01:58,700 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 2 keywords and 11 locations
+2024-12-17 02:01:58,700 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 02:01:58,700 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 02:01:58,700 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 02:01:59,288 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 02:01:59,466 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 02:01:59,639 - JobAlertNotifier - INFO - [telegram_notifier:139] - Telegram bot validation successful
+2024-12-17 02:01:59,640 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Python
+2024-12-17 02:02:20,657 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 02:02:20,658 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Developer
+2024-12-17 02:02:21,269 - JobAlertNotifier - INFO - [main:57] - Found 0 jobs from WeWorkRemotelyScraper
+2024-12-17 02:02:21,269 - JobAlertNotifier - INFO - [main:63] - Found 0 total jobs across all sources
+2024-12-17 02:02:21,269 - JobAlertNotifier - INFO - [filters:220] - No jobs to filter
+2024-12-17 02:02:21,270 - JobAlertNotifier - INFO - [main:67] - Found 0 matching jobs for Romania
+2024-12-17 02:07:55,573 - JobAlertNotifier - INFO - [main:31] - Starting Job Alert Notifier
+2024-12-17 02:07:55,574 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 2 keywords and 11 locations
+2024-12-17 02:07:55,574 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 02:07:55,574 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 02:07:55,574 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 02:07:56,143 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 02:07:56,308 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 02:07:56,428 - JobAlertNotifier - INFO - [telegram_notifier:139] - Telegram bot validation successful
+2024-12-17 02:07:56,428 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Python
+2024-12-17 02:08:16,992 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 02:08:16,992 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Developer
+2024-12-17 02:08:17,659 - JobAlertNotifier - INFO - [main:57] - Found 0 jobs from WeWorkRemotelyScraper
+2024-12-17 02:08:17,659 - JobAlertNotifier - INFO - [main:63] - Found 0 total jobs across all sources
+2024-12-17 02:08:17,659 - JobAlertNotifier - INFO - [filters:220] - No jobs to filter
+2024-12-17 02:08:17,659 - JobAlertNotifier - INFO - [main:67] - Found 0 matching jobs for Romania
+2024-12-17 02:09:57,410 - JobAlertNotifier - INFO - [main:31] - Starting Job Alert Notifier
+2024-12-17 02:09:57,410 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 21 keywords and 11 locations
+2024-12-17 02:09:57,410 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 02:09:57,411 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 02:09:57,411 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 02:09:57,974 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 02:09:58,133 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 02:09:58,306 - JobAlertNotifier - INFO - [telegram_notifier:139] - Telegram bot validation successful
+2024-12-17 02:09:58,307 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 02:10:18,844 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 02:10:18,844 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 02:10:19,458 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 02:10:19,922 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 02:10:20,575 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Graduate Program
+2024-12-17 02:10:21,034 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student Program
+2024-12-17 02:10:21,535 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Developer
+2024-12-17 02:10:22,006 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software
+2024-12-17 02:10:22,487 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programming
+2024-12-17 02:10:22,970 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Engineer
+2024-12-17 02:10:23,486 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Development
+2024-12-17 02:10:23,952 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 02:10:53,818 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tech
+2024-12-17 02:10:54,285 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Application
+2024-12-17 02:10:54,752 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web
+2024-12-17 02:10:55,434 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Mobile
+2024-12-17 02:10:55,913 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 02:10:56,608 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 02:10:57,107 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 02:10:57,592 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 02:11:00,577 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 02:11:01,194 - JobAlertNotifier - INFO - [main:57] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 02:11:02,468 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:02,989 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:03,392 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:03,817 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:04,230 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:04,629 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:05,018 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:05,400 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:05,910 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:06,295 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:06,689 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:07,816 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:08,191 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:08,601 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:09,001 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:09,507 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:09,894 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:10,307 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/software-dev: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/software-dev/
+2024-12-17 02:11:10,713 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://remote.co/remote-jobs/devops: 404 Client Error: Not Found for url: https://remote.co/remote-jobs/devops/
+2024-12-17 02:11:11,627 - JobAlertNotifier - INFO - [main:57] - Found 0 jobs from RemoteCoScraper
+2024-12-17 02:11:33,832 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Intern
+2024-12-17 02:11:53,366 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Internship
+2024-12-17 02:12:14,329 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Student
+2024-12-17 02:12:33,615 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Trainee
+2024-12-17 02:12:54,263 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Graduate Program
+2024-12-17 02:13:13,218 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Student Program
+2024-12-17 02:13:34,443 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Developer
+2024-12-17 02:13:54,179 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Software
+2024-12-17 02:14:13,336 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Programming
+2024-12-17 02:14:31,821 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Engineer
+2024-12-17 02:14:51,569 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Development
+2024-12-17 02:15:11,343 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: IT
+2024-12-17 02:15:29,307 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Tech
+2024-12-17 02:15:49,728 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Application
+2024-12-17 02:16:08,252 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Web
+2024-12-17 02:16:27,392 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Mobile
+2024-12-17 02:16:46,685 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Full Stack
+2024-12-17 02:17:07,424 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Frontend
+2024-12-17 02:17:27,714 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: Backend
+2024-12-17 02:17:46,633 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: DevOps
+2024-12-17 02:18:05,786 - JobAlertNotifier - INFO - [linkedin:195] - Scraping LinkedIn Jobs for keyword: QA
+2024-12-17 02:18:24,213 - JobAlertNotifier - INFO - [main:57] - Found 0 jobs from LinkedInScraper
+2024-12-17 02:18:24,213 - JobAlertNotifier - INFO - [main:63] - Found 23 total jobs across all sources
+2024-12-17 02:18:24,213 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
+2024-12-17 02:18:24,214 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 0 matches
+2024-12-17 02:18:24,214 - JobAlertNotifier - INFO - [main:67] - Found 0 matching jobs for Romania
+2024-12-17 02:20:11,937 - JobAlertNotifier - INFO - [main:31] - Starting Job Alert Notifier
+2024-12-17 02:20:11,938 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 30 keywords and 11 locations
+2024-12-17 02:20:11,938 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 02:20:11,938 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 02:20:11,939 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 02:20:12,515 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 02:20:12,745 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 02:20:13,114 - JobAlertNotifier - INFO - [telegram_notifier:139] - Telegram bot validation successful
+2024-12-17 02:20:13,115 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Intern
+2024-12-17 02:20:14,892 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Internship
+2024-12-17 02:20:15,312 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Student
+2024-12-17 02:20:16,030 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Trainee
+2024-12-17 02:20:16,612 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Graduate Program
+2024-12-17 02:20:17,274 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Student Program
+2024-12-17 02:20:19,414 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Developer
+2024-12-17 02:20:19,892 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Dezvoltator
+2024-12-17 02:20:20,400 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Software
+2024-12-17 02:20:20,935 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Programare
+2024-12-17 02:20:21,323 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Programming
+2024-12-17 02:20:21,864 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Inginer
+2024-12-17 02:20:22,675 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Engineer
+2024-12-17 02:20:23,319 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Dezvoltare
+2024-12-17 02:20:24,113 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Development
+2024-12-17 02:20:24,703 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: IT
+2024-12-17 02:20:25,327 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Tehnologie
+2024-12-17 02:20:25,885 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Tech
+2024-12-17 02:20:27,381 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Application
+2024-12-17 02:20:27,696 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Web
+2024-12-17 02:20:28,169 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Mobil
+2024-12-17 02:20:28,961 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Mobile
+2024-12-17 02:20:29,490 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Full Stack
+2024-12-17 02:20:29,804 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Frontend
+2024-12-17 02:20:30,328 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: Backend
+2024-12-17 02:20:30,610 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: DevOps
+2024-12-17 02:20:31,117 - JobAlertNotifier - INFO - [bestjobs_ro:89] - Scraping BestJobs.ro for keyword: QA
+2024-12-17 02:20:31,620 - JobAlertNotifier - INFO - [main:57] - Found 0 jobs from BestJobsRoScraper
+2024-12-17 02:20:31,623 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Intern
+2024-12-17 02:20:32,180 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Internship
+2024-12-17 02:20:32,304 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Student
+2024-12-17 02:20:32,404 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Trainee
+2024-12-17 02:20:32,514 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Graduate Program
+2024-12-17 02:20:32,610 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Student Program
+2024-12-17 02:20:32,915 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Developer
+2024-12-17 02:20:33,023 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Dezvoltator
+2024-12-17 02:20:33,123 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Software
+2024-12-17 02:20:33,224 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Programare
+2024-12-17 02:20:33,320 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Programming
+2024-12-17 02:20:33,421 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Inginer
+2024-12-17 02:20:33,533 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Engineer
+2024-12-17 02:20:33,632 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Dezvoltare
+2024-12-17 02:20:33,739 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Development
+2024-12-17 02:20:33,838 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: IT
+2024-12-17 02:20:33,937 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Tehnologie
+2024-12-17 02:20:34,032 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Tech
+2024-12-17 02:20:34,252 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Application
+2024-12-17 02:20:34,417 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Web
+2024-12-17 02:20:34,540 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Mobil
+2024-12-17 02:20:34,658 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Mobile
+2024-12-17 02:20:34,763 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Full Stack
+2024-12-17 02:20:34,870 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Frontend
+2024-12-17 02:20:34,973 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: Backend
+2024-12-17 02:20:35,218 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: DevOps
+2024-12-17 02:20:35,320 - JobAlertNotifier - INFO - [hipo_ro:174] - Scraping Hipo.ro for keyword: QA
+2024-12-17 02:20:35,417 - JobAlertNotifier - INFO - [main:57] - Found 0 jobs from HipoRoScraper
+2024-12-17 02:20:35,418 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Intern
+2024-12-17 02:20:36,457 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Internship
+2024-12-17 02:20:36,751 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Student
+2024-12-17 02:20:37,467 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Trainee
+2024-12-17 02:20:38,218 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Graduate Program
+2024-12-17 02:20:38,946 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Student Program
+2024-12-17 02:20:41,366 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Developer
+2024-12-17 02:20:42,355 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Dezvoltator
+2024-12-17 02:20:43,273 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Software
+2024-12-17 02:20:44,042 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Programare
+2024-12-17 02:20:44,068 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Programare: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Programare
+2024-12-17 02:20:44,068 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Programming
+2024-12-17 02:20:44,465 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Programming: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Programming
+2024-12-17 02:20:44,465 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Inginer
+2024-12-17 02:20:44,828 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Inginer: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Inginer
+2024-12-17 02:20:44,828 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Engineer
+2024-12-17 02:20:45,193 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Engineer: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Engineer
+2024-12-17 02:20:45,193 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Dezvoltare
+2024-12-17 02:20:45,551 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Dezvoltare: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Dezvoltare
+2024-12-17 02:20:45,552 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Development
+2024-12-17 02:20:45,906 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Development: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Development
+2024-12-17 02:20:45,907 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: IT
+2024-12-17 02:20:46,285 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/IT: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/IT
+2024-12-17 02:20:46,286 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Tehnologie
+2024-12-17 02:20:46,636 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Tehnologie: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Tehnologie
+2024-12-17 02:20:46,636 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Tech
+2024-12-17 02:20:46,982 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Tech: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Tech
+2024-12-17 02:20:47,325 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Aplica%C8%9Bie: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Aplica%C8%9Bie
+2024-12-17 02:20:47,325 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Application
+2024-12-17 02:20:47,674 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Application: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Application
+2024-12-17 02:20:47,674 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Web
+2024-12-17 02:20:48,071 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Web: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Web
+2024-12-17 02:20:48,072 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Mobil
+2024-12-17 02:20:48,419 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Mobil: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Mobil
+2024-12-17 02:20:48,419 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Mobile
+2024-12-17 02:20:48,786 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Mobile: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Mobile
+2024-12-17 02:20:48,786 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Full Stack
+2024-12-17 02:20:49,145 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Full%20Stack: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Full%20Stack
+2024-12-17 02:20:49,146 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Frontend
+2024-12-17 02:20:49,539 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Frontend: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Frontend
+2024-12-17 02:20:49,539 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: Backend
+2024-12-17 02:20:49,919 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/Backend: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/Backend
+2024-12-17 02:20:49,920 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: DevOps
+2024-12-17 02:20:50,263 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/DevOps: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/DevOps
+2024-12-17 02:20:50,264 - JobAlertNotifier - INFO - [ejobs_ro:119] - Scraping eJobs.ro for keyword: QA
+2024-12-17 02:20:50,599 - JobAlertNotifier - ERROR - [base:48] - Error fetching https://www.ejobs.ro/locuri-de-munca/cautare/QA: 429 Client Error: Too Many Requests for url: https://www.ejobs.ro/locuri-de-munca/cautare/QA
+2024-12-17 02:20:50,599 - JobAlertNotifier - INFO - [main:57] - Found 0 jobs from EJobsRoScraper
+2024-12-17 02:20:50,599 - JobAlertNotifier - INFO - [main:63] - Found 0 total jobs across all sources
+2024-12-17 02:20:50,600 - JobAlertNotifier - INFO - [filters:220] - No jobs to filter
+2024-12-17 02:20:50,600 - JobAlertNotifier - INFO - [main:67] - Found 0 matching jobs for Romania
