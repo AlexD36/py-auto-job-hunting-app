@@ -7,6 +7,7 @@ import os
 from datetime import datetime
 from logging.handlers import RotatingFileHandler
 from typing import Optional, Union, Literal
+import sys
 
 # Type definitions for log levels
 LogLevel = Union[
@@ -48,68 +49,33 @@ def get_log_level(level: LogLevel) -> int:
         return level_map[level.upper()]
     return level
 
-def setup_logger(
-    log_file: Optional[str] = None,
-    level: LogLevel = LogConfig.DEFAULT_LOG_LEVEL
-) -> logging.Logger:
-    """
-    Configure and return a logger instance with rotating file handler
+def setup_logger(log_file: str) -> logging.Logger:
+    """Set up and configure the application logger.
     
     Args:
-        log_file: Path to the log file (optional)
-        level: Logging level (default: INFO)
+        log_file (str): Path to the log file
         
     Returns:
         logging.Logger: Configured logger instance
     """
-    # Convert log level if string
-    log_level = get_log_level(level)
-    
-    # Create logger
     logger = logging.getLogger("JobAlertNotifier")
+    logger.setLevel(logging.INFO)
     
-    # Return existing logger if already configured
-    if logger.handlers:
-        return logger
+    # File handler with UTF-8 encoding
+    file_handler = logging.FileHandler(log_file, encoding="utf-8")
+    file_handler.setLevel(logging.INFO)
     
-    # Set log level
-    logger.setLevel(log_level)
+    # Console handler with UTF-8 encoding
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setLevel(logging.INFO)
     
-    # Create formatter
-    formatter = logging.Formatter(LogConfig.LOG_FORMAT)
-    
-    # Setup file handling
-    if log_file is None:
-        # Create default logs directory
-        os.makedirs(LogConfig.DEFAULT_LOG_DIR, exist_ok=True)
-        
-        # Generate timestamp-based log filename
-        timestamp = datetime.now().strftime("%Y-%m-%d")
-        log_file = os.path.join(
-            LogConfig.DEFAULT_LOG_DIR,
-            f"{timestamp}-notifications.log"
-        )
-    else:
-        # Ensure custom log directory exists
-        os.makedirs(os.path.dirname(log_file), exist_ok=True)
-    
-    # Setup rotating file handler
-    file_handler = RotatingFileHandler(
-        log_file,
-        maxBytes=LogConfig.MAX_BYTES,
-        backupCount=LogConfig.BACKUP_COUNT
-    )
+    # Formatter
+    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - [%(module)s:%(lineno)d] - %(message)s")
     file_handler.setFormatter(formatter)
-    logger.addHandler(file_handler)
-    
-    # Console handler
-    console_handler = logging.StreamHandler()
     console_handler.setFormatter(formatter)
-    logger.addHandler(console_handler)
     
-    # Log initial setup information
-    logger.debug(f"Logger initialized with level {logging.getLevelName(log_level)}")
-    logger.debug(f"Log file: {log_file}")
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
     
     return logger
 
