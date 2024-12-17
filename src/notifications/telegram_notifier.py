@@ -176,48 +176,43 @@ class TelegramNotifier(BaseNotifier):
             raise TelegramNotifierError(f"Failed to send message: {str(e)}")
             
     @retry_on_telegram_error(max_retries=3, delay=2)
-    def send_notification(self, jobs: List[JobPosting]) -> bool:
-        """
-        Send Telegram notification for job postings with retry logic
+    async def send_notification(self, jobs: List[JobPosting]) -> None:
+        """Send job notifications via Telegram.
         
         Args:
-            jobs: List of job postings to send notifications for
-            
-        Returns:
-            bool: True if notification was sent successfully, False otherwise
+            jobs (List[JobPosting]): List of jobs to send notifications for
         """
         if not jobs:
-            self.logger.warning("No jobs provided for notification")
-            return False
+            return
+        
+        valid_jobs = []
+        for job in jobs:
+            if not hasattr(job, "salary"):
+                self.logger.warning(f"Skipping malformed job posting: {job.title} - Missing salary")
+                continue
+            valid_jobs.append(job)
+        
+        if not valid_jobs:
+            return
+        
+        chunks = [valid_jobs[i:i + self.CHUNK_SIZE] for i in range(0, len(valid_jobs), self.CHUNK_SIZE)]
+        self.logger.info(f"Sending notification for {len(valid_jobs)} jobs in {len(chunks)} chunks")
+        
+        for chunk in chunks:
+            message = self._format_jobs(chunk)
+            try:
+                # Properly await the send_message coroutine
+                await self.bot.send_message(
+                    chat_id=self.chat_id,
+                    text=message,
+                    parse_mode="HTML",
+                    disable_web_page_preview=True
+                )
+            except Exception as e:
+                self.logger.error(f"Failed to send Telegram notification: {str(e)}")
+                continue
             
-        try:
-            message = self.format_message(jobs)
-            chunks = self._split_message(message)
-            
-            self.logger.info(
-                f"Sending notification for {len(jobs)} jobs in {len(chunks)} chunks"
-            )
-            
-            for i, chunk in enumerate(chunks, 1):
-                if len(chunks) > 1:
-                    chunk = f"(Part {i}/{len(chunks)})\n\n{chunk}"
-                    
-                self._send_message_chunk(chunk)
-                
-            self.logger.info(
-                f"Successfully sent Telegram notification in {len(chunks)} parts"
-            )
-            return True
-            
-        except TelegramNotifierError as e:
-            self.logger.error(f"Telegram notification error: {str(e)}")
-            return False
-        except ValueError as e:
-            self.logger.error(f"Validation error: {str(e)}")
-            return False
-        except Exception as e:
-            self.logger.error(f"Unexpected error: {str(e)}")
-            return False
+        self.logger.info(f"Successfully sent Telegram notification in {len(chunks)} parts")
 
     def _split_message(self, message: str, chunk_size: Optional[int] = None) -> List[str]:
         """
