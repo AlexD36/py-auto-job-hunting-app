@@ -11,7 +11,6 @@ This app is designed to help job seekers stay on top of the job market without n
 - Scrapes job listings from popular job boards.
 - Sends real-time notifications via Telegram or Email.
 - Customizable job filters: location, job title, etc.
-- Schedule notifications for daily or weekly updates.
 - Easy setup and cloud deployment on **Heroku** or **AWS EC2**.
 
 ## Table of Contents
