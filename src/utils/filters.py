@@ -104,7 +104,7 @@ class JobFilter:
 
     def matches_keywords(self, job: JobPosting) -> bool:
         """
-        Check if job matches any keywords with improved accuracy
+        Check if job matches any keywords
         
         Args:
             job: JobPosting to check
@@ -115,36 +115,34 @@ class JobFilter:
         # Normalize job text
         title = normalize_text(job.title)
         description = normalize_text(job.description)
+        text_to_check = f"{title} {description}"
         
-        if not title:
-            self.log_filter_reason(job, "Empty title")
+        if not text_to_check.strip():
+            self.log_filter_reason(job, "Empty title and description")
             return False
             
-        # First check the title as it's most important
-        for keyword in self.criteria.keywords:
-            normalized_keyword = normalize_text(keyword)
+        # Handle regex matching
+        if self.criteria.use_regex and self.keyword_patterns:
+            for pattern in self.keyword_patterns:
+                if pattern.search(text_to_check):
+                    return True
+            self.log_filter_reason(job, "No regex keyword matches")
+            return False
             
-            # For exact matching
-            if self.criteria.exact_match:
-                # Check if the entire keyword phrase is in the title
-                if normalized_keyword in title:
-                    return True
-                    
-                # If not in title, check if it's a prominent part of the description
-                # by looking at the first 500 characters (usually contains the role overview)
-                if description and normalized_keyword in description[:500]:
-                    return True
-                    
-            # For non-exact matching, split keyword into parts
-            else:
-                keyword_parts = normalized_keyword.split()
-                # All parts of the keyword must be present in the title or early description
-                if all(part in title or (description and part in description[:500]) 
-                      for part in keyword_parts):
-                    return True
-        
-        self.log_filter_reason(job, f"No keyword matches found in title: {title}")
-        return False
+        # Handle exact matching
+        if self.criteria.exact_match:
+            words = set(text_to_check.split())
+            if not any(keyword in words for keyword in self.keywords):
+                self.log_filter_reason(job, "No exact keyword matches")
+                return False
+            return True
+            
+        # Handle partial matching
+        if not any(keyword in text_to_check for keyword in self.keywords):
+            self.log_filter_reason(job, "No partial keyword matches")
+            return False
+            
+        return True
 
     def matches_location(self, job: JobPosting) -> bool:
         """
@@ -327,44 +325,51 @@ ROMANIA_FILTER_CRITERIA = FilterCriteria(
 # Filter criteria for international jobs
 INTERNATIONAL_FILTER_CRITERIA = FilterCriteria(
     keywords=[
-        # Programming-specific keywords
-        "Python Developer",
+        # Internship-related keywords in English
+        "Intern",
+        "Internship",
+        "Student",
+        "Trainee",
+        "Graduate Program",
+        "Student Program",
+        "Entry Level",
+        "Trainee Program",
+
+        # Programming-related keywords in English
+        "Developer",
         "Software Engineer",
-        "Backend Developer",
-        "Full Stack Developer",
         "Software Developer",
+        "Programming",
+        "Engineer",
+        "Software Development",
+        "IT",
+        "Tech",
+        "Application",
         "Web Developer",
-        "DevOps Engineer",
-        "Cloud Engineer",
-        "Data Engineer",
-        "Machine Learning Engineer",
-        "AI Engineer",
-        "Systems Engineer",
-        "QA Engineer",
+        "Mobile Developer",
+        "Full Stack",
+        "Frontend",
+        "Backend",
+        "DevOps",
+        "QA",
+        "Quality Assurance",
         "Test Engineer",
-        "Frontend Developer",
-        "React Developer",
-        "Node.js Developer",
-        "Java Developer",
-        "Golang Developer",
-        "Ruby Developer",
-        
-        # Entry level specific
-        "Junior Developer",
-        "Junior Engineer",
-        "Graduate Software",
-        "Entry Level Developer",
-        "Entry Level Engineer",
-        "Junior Python",
-        "Junior Full Stack",
-        "Junior Backend",
-        "Junior Frontend",
+        "Cloud Engineer",
+        "System Administrator",
+        "Cybersecurity",
+        "AI Developer",
+        "Data Scientist",
+        "Machine Learning",
     ],
     locations=[
-        # Keep your existing locations
+        # Location types
         "Remote",
         "Remote Work",
         "Hybrid",
+        "On-site",
+        "Freelance",
+
+        # Countries
         "United States",
         "USA",
         "United Kingdom",
@@ -378,13 +383,15 @@ INTERNATIONAL_FILTER_CRITERIA = FilterCriteria(
         "France",
         "Canada",
         "Australia",
+
+        # Regions
         "Europe",
         "European Union",
         "North America",
         "Global",
     ],
-    include_unspecified_locations=False,
-    max_days_old=14,
-    exact_match=True,
+    include_unspecified_locations=False,  # More strict for international jobs
+    max_days_old=14,  # Shorter window for international positions
+    exact_match=False,
     use_regex=False
 ) 

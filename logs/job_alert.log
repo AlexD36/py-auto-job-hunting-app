@@ -376,6 +376,7 @@
 2024-12-17 13:18:11,508 - JobAlertNotifier - ERROR - [email_notifier:234] - Error formatting email message: ' font-family'
 2024-12-17 13:18:11,508 - JobAlertNotifier - ERROR - [email_notifier:348] - Unexpected error: Failed to format email message: ' font-family'
 2024-12-17 13:18:11,508 - JobAlertNotifier - ERROR - [main:82] - An error occurred: Failed to send email notification: Failed to format email message: ' font-family'
+<<<<<<< HEAD
 2024-12-17 13:21:27,499 - JobAlertNotifier - INFO - [main:37] - Starting Job Alert Notifier
 2024-12-17 13:21:27,500 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 32 keywords and 22 locations
 2024-12-17 13:21:27,500 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
@@ -465,3 +466,5 @@
 2024-12-17 13:30:30,961 - JobAlertNotifier - INFO - [main:75] - Found 0 total jobs across all sources
 2024-12-17 13:30:30,961 - JobAlertNotifier - INFO - [filters:222] - No jobs to filter
 2024-12-17 13:30:30,961 - JobAlertNotifier - INFO - [main:79] - Found 0 matching jobs for Romania
+=======
+>>>>>>> parent of d5a6895 (more precise filtering)

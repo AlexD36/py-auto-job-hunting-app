@@ -37,10 +37,9 @@ async def main() -> None:
     logger.info("Starting Job Alert Notifier")
     
     try:
-        # Initialize job filter with international criteria since we're using WeWorkRemotely
-        #Needs to be changed to ROMANIA_FILTER_CRITERIA.keywords when using other scrapers
-        job_filter = JobFilter(INTERNATIONAL_FILTER_CRITERIA)
+        # Initialize job filter (Romania OR International)
         #job_filter = JobFilter(ROMANIA_FILTER_CRITERIA)
+        job_filter = JobFilter(INTERNATIONAL_FILTER_CRITERIA)
         
         # Initialize notifiers
         email_notifier = EmailNotifier(
@@ -61,11 +60,7 @@ async def main() -> None:
         for scraper_class in SCRAPERS:
             try:
                 scraper = scraper_class()
-
-                #Needs to be changed to ROMANIA_FILTER_CRITERIA.keywords when using other scrapers
-                # Use the same criteria for scraping
-                jobs = scraper.scrape_jobs(INTERNATIONAL_FILTER_CRITERIA.keywords)
-                #jobs = scraper.scrape_jobs(ROMANIA_FILTER_CRITERIA.keywords)
+                jobs = scraper.scrape_jobs(ROMANIA_FILTER_CRITERIA.keywords)
                 logger.info(f"Found {len(jobs)} jobs from {scraper_class.__name__}")
                 all_jobs.extend(jobs)
             except Exception as scraper_error:
