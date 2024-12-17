@@ -262,7 +262,6 @@ class JobFilter:
             f"Filtered out: {job.title} ({job.company}) - {reason}"
         )
 
-# Filter criteria for Romanian jobs
 ROMANIA_FILTER_CRITERIA = FilterCriteria(
     keywords=[
         # Internship-related keywords in Romanian
@@ -390,8 +389,8 @@ INTERNATIONAL_FILTER_CRITERIA = FilterCriteria(
         "North America",
         "Global",
     ],
-    include_unspecified_locations=False,  # More strict for international jobs
-    max_days_old=14,  # Shorter window for international positions
+    include_unspecified_locations=True,
+    max_days_old=30,
     exact_match=False,
     use_regex=False
-) 
+)

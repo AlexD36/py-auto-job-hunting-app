@@ -468,3 +468,50 @@
 2024-12-17 13:30:30,961 - JobAlertNotifier - INFO - [main:79] - Found 0 matching jobs for Romania
 =======
 >>>>>>> parent of d5a6895 (more precise filtering)
+2024-12-17 13:52:29,931 - JobAlertNotifier - INFO - [main:37] - Starting Job Alert Notifier
+2024-12-17 13:52:29,932 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 32 keywords and 22 locations
+2024-12-17 13:52:29,932 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 13:52:29,932 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 13:52:29,932 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 13:52:30,491 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 13:52:30,669 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 13:52:30,814 - JobAlertNotifier - INFO - [telegram_notifier:139] - Telegram bot validation successful
+2024-12-17 13:52:30,814 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 13:52:51,610 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 13:52:51,610 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 13:52:52,088 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 13:52:52,551 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 13:52:53,044 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Stagiar
+2024-12-17 13:52:55,473 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltator
+2024-12-17 13:52:56,025 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programator
+2024-12-17 13:52:56,531 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer software
+2024-12-17 13:52:57,006 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programare
+2024-12-17 13:52:57,529 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer
+2024-12-17 13:52:58,166 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltare
+2024-12-17 13:52:58,717 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnologie
+2024-12-17 13:53:00,193 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 13:53:30,335 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnician IT
+2024-12-17 13:53:30,816 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web
+2024-12-17 13:53:31,312 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 13:53:31,830 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 13:53:32,297 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 13:53:32,879 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Testare software
+2024-12-17 13:53:33,351 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 13:53:33,843 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 13:53:36,845 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Administrare sisteme
+2024-12-17 13:53:37,368 - JobAlertNotifier - INFO - [main:64] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 13:53:37,369 - JobAlertNotifier - INFO - [main:70] - Found 23 total jobs across all sources
+2024-12-17 13:53:37,369 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
+2024-12-17 13:53:37,369 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 8 matches
+2024-12-17 13:53:37,369 - JobAlertNotifier - INFO - [main:74] - Found 8 matching jobs for Romania
+2024-12-17 13:53:38,629 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 8 jobs
+2024-12-17 13:53:38,630 - JobAlertNotifier - WARNING - [telegram_notifier:389] - Skipping malformed job posting: 'JobPosting' object has no attribute 'salary'
+2024-12-17 13:53:38,630 - JobAlertNotifier - WARNING - [telegram_notifier:389] - Skipping malformed job posting: 'JobPosting' object has no attribute 'salary'
+2024-12-17 13:53:38,630 - JobAlertNotifier - WARNING - [telegram_notifier:389] - Skipping malformed job posting: 'JobPosting' object has no attribute 'salary'
+2024-12-17 13:53:38,631 - JobAlertNotifier - WARNING - [telegram_notifier:389] - Skipping malformed job posting: 'JobPosting' object has no attribute 'salary'
+2024-12-17 13:53:38,631 - JobAlertNotifier - WARNING - [telegram_notifier:389] - Skipping malformed job posting: 'JobPosting' object has no attribute 'salary'
+2024-12-17 13:53:38,631 - JobAlertNotifier - WARNING - [telegram_notifier:389] - Skipping malformed job posting: 'JobPosting' object has no attribute 'salary'
+2024-12-17 13:53:38,631 - JobAlertNotifier - WARNING - [telegram_notifier:389] - Skipping malformed job posting: 'JobPosting' object has no attribute 'salary'
+2024-12-17 13:53:38,631 - JobAlertNotifier - WARNING - [telegram_notifier:389] - Skipping malformed job posting: 'JobPosting' object has no attribute 'salary'
+2024-12-17 13:53:38,631 - JobAlertNotifier - INFO - [telegram_notifier:197] - Sending notification for 8 jobs in 1 chunks
+2024-12-17 13:53:38,633 - JobAlertNotifier - INFO - [telegram_notifier:207] - Successfully sent Telegram notification in 1 parts
