@@ -162,3 +162,9 @@
 2024-12-17 18:58:08,480 - JobAlertNotifier - INFO - [main:80] - Removed 0 duplicate jobs
 2024-12-17 18:58:09,577 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 7 jobs
 2024-12-17 18:58:09,577 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 7 jobs
+2024-12-17 19:05:06,604 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 19:05:06,605 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 19:05:06,605 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 19:05:07,181 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 19:05:07,417 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 19:05:07,607 - JobAlertNotifier - INFO - [telegram_notifier:139] - Telegram bot validation successful

@@ -81,7 +81,7 @@ async def main() -> None:
             
             # Send notifications with deduplicated jobs
             email_notifier.send_notification(unique_jobs)
-            telegram_notifier.send_notification(unique_jobs)
+            await telegram_notifier.send_notification(unique_jobs)
             
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
