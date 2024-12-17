@@ -5,6 +5,9 @@
 
 This app is designed to help job seekers stay on top of the job market without needing to constantly check multiple websites. With easy setup and customizable alerts, **JobSprint** is the perfect assistant for anyone looking to land their next job!
 
+![image](https://github.com/user-attachments/assets/fef5b715-5452-4a9c-a292-3f8d50ba5257)
+
+
 ## Features
 - Scrapes job listings from popular job boards.
 - Sends real-time notifications via Telegram or Email.
