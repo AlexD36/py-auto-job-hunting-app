@@ -19,12 +19,12 @@ import asyncio
 
 # Define all available scrapers
 SCRAPERS: List[Type[BaseScraper]] = [
-    RemoteCoScraper,
-    LinkedInScraper,
     WeWorkRemotelyScraper,
-    EJobsRoScraper,
-    HipoRoScraper,
-    BestJobsRoScraper
+    #RemoteCoScraper,
+    #LinkedInScraper,
+    #HipoRoScraper,
+    #EJobsRoScraper,
+    #BestJobsRoScraper
 ]
 
 async def main() -> None:
@@ -37,8 +37,9 @@ async def main() -> None:
     logger.info("Starting Job Alert Notifier")
     
     try:
-        # Initialize job filter
+        # Initialize job filter (Romania OR International)
         job_filter = JobFilter(ROMANIA_FILTER_CRITERIA)
+        #job_filter = JobFilter(INTERNATIONAL_FILTER_CRITERIA)
         
         # Initialize notifiers
         email_notifier = EmailNotifier(
