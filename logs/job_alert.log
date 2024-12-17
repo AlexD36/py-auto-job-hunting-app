@@ -423,3 +423,45 @@
 2024-12-17 13:22:43,601 - JobAlertNotifier - WARNING - [telegram_notifier:389] - Skipping malformed job posting: 'JobPosting' object has no attribute 'salary'
 2024-12-17 13:22:43,601 - JobAlertNotifier - INFO - [telegram_notifier:197] - Sending notification for 8 jobs in 1 chunks
 2024-12-17 13:22:43,605 - JobAlertNotifier - INFO - [telegram_notifier:207] - Successfully sent Telegram notification in 1 parts
+2024-12-17 13:29:49,355 - JobAlertNotifier - INFO - [main:37] - Starting Job Alert Notifier
+2024-12-17 13:29:49,355 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 29 keywords and 20 locations
+2024-12-17 13:29:49,355 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 13:29:49,356 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 13:29:49,356 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 13:29:49,915 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 13:29:50,068 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 13:29:50,294 - JobAlertNotifier - INFO - [telegram_notifier:139] - Telegram bot validation successful
+2024-12-17 13:29:50,295 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Python Developer
+2024-12-17 13:30:12,768 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 13:30:12,768 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Engineer
+2024-12-17 13:30:13,471 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend Developer
+2024-12-17 13:30:14,188 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack Developer
+2024-12-17 13:30:14,824 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Developer
+2024-12-17 13:30:15,592 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web Developer
+2024-12-17 13:30:16,341 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: DevOps Engineer
+2024-12-17 13:30:17,065 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cloud Engineer
+2024-12-17 13:30:17,778 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Data Engineer
+2024-12-17 13:30:18,511 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Machine Learning Engineer
+2024-12-17 13:30:19,159 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: AI Engineer
+2024-12-17 13:30:19,780 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Systems Engineer
+2024-12-17 13:30:20,433 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA Engineer
+2024-12-17 13:30:21,113 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Test Engineer
+2024-12-17 13:30:21,848 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend Developer
+2024-12-17 13:30:22,514 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: React Developer
+2024-12-17 13:30:23,153 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Node.js Developer
+2024-12-17 13:30:23,835 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Java Developer
+2024-12-17 13:30:24,518 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Golang Developer
+2024-12-17 13:30:25,152 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Ruby Developer
+2024-12-17 13:30:25,810 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Junior Developer
+2024-12-17 13:30:26,472 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Junior Engineer
+2024-12-17 13:30:27,203 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Graduate Software
+2024-12-17 13:30:27,717 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Entry Level Developer
+2024-12-17 13:30:28,252 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Entry Level Engineer
+2024-12-17 13:30:28,769 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Junior Python
+2024-12-17 13:30:29,276 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Junior Full Stack
+2024-12-17 13:30:29,805 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Junior Backend
+2024-12-17 13:30:30,360 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Junior Frontend
+2024-12-17 13:30:30,960 - JobAlertNotifier - INFO - [main:69] - Found 0 jobs from WeWorkRemotelyScraper
+2024-12-17 13:30:30,961 - JobAlertNotifier - INFO - [main:75] - Found 0 total jobs across all sources
+2024-12-17 13:30:30,961 - JobAlertNotifier - INFO - [filters:222] - No jobs to filter
+2024-12-17 13:30:30,961 - JobAlertNotifier - INFO - [main:79] - Found 0 matching jobs for Romania
