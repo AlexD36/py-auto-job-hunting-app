@@ -301,3 +301,39 @@
 2024-12-17 02:20:50,599 - JobAlertNotifier - INFO - [main:63] - Found 0 total jobs across all sources
 2024-12-17 02:20:50,600 - JobAlertNotifier - INFO - [filters:220] - No jobs to filter
 2024-12-17 02:20:50,600 - JobAlertNotifier - INFO - [main:67] - Found 0 matching jobs for Romania
+2024-12-17 13:14:44,129 - JobAlertNotifier - INFO - [main:37] - Starting Job Alert Notifier
+2024-12-17 13:14:44,129 - JobAlertNotifier - INFO - [filters:100] - Initialized filter with 28 keywords and 14 locations
+2024-12-17 13:14:44,129 - JobAlertNotifier - INFO - [base:49] - Initialized EmailNotifier with text formatting
+2024-12-17 13:14:44,130 - JobAlertNotifier - INFO - [base:49] - Initialized TelegramNotifier with text formatting
+2024-12-17 13:14:44,130 - JobAlertNotifier - INFO - [telegram_notifier:73] - Initializing Telegram notifier...
+2024-12-17 13:14:44,715 - JobAlertNotifier - INFO - [telegram_notifier:115] - Validating Telegram bot connection...
+2024-12-17 13:14:44,944 - JobAlertNotifier - INFO - [telegram_notifier:119] - Connected as bot: JobSprintBot
+2024-12-17 13:14:45,079 - JobAlertNotifier - INFO - [telegram_notifier:139] - Telegram bot validation successful
+2024-12-17 13:14:45,080 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 13:15:05,735 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 13:15:05,735 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 13:15:06,208 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 13:15:06,720 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 13:15:07,235 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Stagiar
+2024-12-17 13:15:09,584 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltator
+2024-12-17 13:15:10,086 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programator
+2024-12-17 13:15:10,557 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer software
+2024-12-17 13:15:11,043 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programare
+2024-12-17 13:15:11,541 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer
+2024-12-17 13:15:12,050 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltare
+2024-12-17 13:15:12,515 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnologie
+2024-12-17 13:15:13,962 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 13:15:43,950 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnician IT
+2024-12-17 13:15:44,416 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web
+2024-12-17 13:15:44,914 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 13:15:45,466 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 13:15:45,980 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 13:15:46,467 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Testare software
+2024-12-17 13:15:46,942 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 13:15:47,424 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 13:15:50,441 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Administrare sisteme
+2024-12-17 13:15:50,913 - JobAlertNotifier - INFO - [main:64] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 13:15:50,913 - JobAlertNotifier - INFO - [main:70] - Found 23 total jobs across all sources
+2024-12-17 13:15:50,913 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
+2024-12-17 13:15:50,914 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 0 matches
+2024-12-17 13:15:50,914 - JobAlertNotifier - INFO - [main:74] - Found 0 matching jobs for Romania

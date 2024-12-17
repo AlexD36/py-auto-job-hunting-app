@@ -3,7 +3,7 @@ Job Alert Notifier - Main entry point
 """
 from src.config.config import load_config
 from src.utils.logger import setup_logger
-from src.utils.filters import JobFilter, ROMANIA_FILTER_CRITERIA
+from src.utils.filters import JobFilter, ROMANIA_FILTER_CRITERIA, INTERNATIONAL_FILTER_CRITERIA
 from src.scrapers.remoteco import RemoteCoScraper
 from src.scrapers.linkedin import LinkedInScraper
 from src.scrapers.weworkremotely import WeWorkRemotelyScraper
@@ -38,8 +38,8 @@ async def main() -> None:
     
     try:
         # Initialize job filter (Romania OR International)
-        job_filter = JobFilter(ROMANIA_FILTER_CRITERIA)
-        #job_filter = JobFilter(INTERNATIONAL_FILTER_CRITERIA)
+        #job_filter = JobFilter(ROMANIA_FILTER_CRITERIA)
+        job_filter = JobFilter(INTERNATIONAL_FILTER_CRITERIA)
         
         # Initialize notifiers
         email_notifier = EmailNotifier(
