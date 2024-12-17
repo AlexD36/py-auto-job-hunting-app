@@ -186,3 +186,80 @@
 2024-12-17 19:14:10,271 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 7 jobs
 2024-12-17 19:14:10,271 - JobAlertNotifier - ERROR - [main:87] - An error occurred: 'TelegramNotifier' object has no attribute 'CHUNK_SIZE'
 2024-12-17 19:14:10,362 - JobAlertNotifier - WARNING - [email_notifier:168] - Error closing SMTP connection: Server not connected
+2024-12-17 19:17:06,400 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 19:17:27,123 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 19:17:27,124 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 19:17:27,604 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 19:17:28,092 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 19:17:28,583 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Stagiar
+2024-12-17 19:17:29,063 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Practică
+2024-12-17 19:17:29,541 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Program pentru absolvenți
+2024-12-17 19:17:30,050 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Program pentru studenți
+2024-12-17 19:17:30,539 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Pregătire profesională
+2024-12-17 19:17:31,026 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltator
+2024-12-17 19:17:31,498 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programator
+2024-12-17 19:17:31,989 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer software
+2024-12-17 19:17:32,456 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programare
+2024-12-17 19:17:32,952 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer
+2024-12-17 19:17:33,421 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltare
+2024-12-17 19:17:33,895 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnologie
+2024-12-17 19:17:34,389 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Aplicație
+2024-12-17 19:17:34,871 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Aplicații mobile
+2024-12-17 19:17:35,430 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 19:18:05,615 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnician IT
+2024-12-17 19:18:06,115 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web
+2024-12-17 19:18:06,617 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 19:18:07,184 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 19:18:07,730 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 19:18:08,244 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Testare software
+2024-12-17 19:18:08,727 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 19:18:09,215 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 19:18:12,233 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Administrare sisteme
+2024-12-17 19:18:12,710 - JobAlertNotifier - INFO - [main:64] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 19:18:12,711 - JobAlertNotifier - INFO - [main:70] - Found 23 total jobs across all sources
+2024-12-17 19:18:12,711 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
+2024-12-17 19:18:12,711 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 7 matches
+2024-12-17 19:18:12,711 - JobAlertNotifier - INFO - [main:74] - Found 7 matching jobs for Romania
+2024-12-17 19:18:12,712 - JobAlertNotifier - INFO - [main:80] - Removed 0 duplicate jobs
+2024-12-17 19:18:13,897 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 7 jobs
+2024-12-17 19:18:13,898 - JobAlertNotifier - INFO - [telegram_notifier:190] - Sending notification for 7 jobs in 2 chunks
+2024-12-17 19:18:13,898 - JobAlertNotifier - ERROR - [main:87] - An error occurred: 'TelegramNotifier' object has no attribute '_format_jobs'
+2024-12-17 19:18:13,990 - JobAlertNotifier - WARNING - [email_notifier:168] - Error closing SMTP connection: Server not connected
+2024-12-17 19:20:09,591 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 19:20:30,690 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 19:20:30,691 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 19:20:31,307 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 19:20:31,920 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 19:20:32,420 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Stagiar
+2024-12-17 19:20:32,951 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Practică
+2024-12-17 19:20:33,494 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Program pentru absolvenți
+2024-12-17 19:20:34,019 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Program pentru studenți
+2024-12-17 19:20:34,493 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Pregătire profesională
+2024-12-17 19:20:34,958 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltator
+2024-12-17 19:20:35,423 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programator
+2024-12-17 19:20:35,911 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer software
+2024-12-17 19:20:36,438 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programare
+2024-12-17 19:20:36,911 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer
+2024-12-17 19:20:37,409 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltare
+2024-12-17 19:20:37,969 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnologie
+2024-12-17 19:20:38,444 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Aplicație
+2024-12-17 19:20:38,905 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Aplicații mobile
+2024-12-17 19:20:39,380 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 19:21:11,070 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnician IT
+2024-12-17 19:21:11,786 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web
+2024-12-17 19:21:12,486 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 19:21:13,145 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 19:21:13,777 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 19:21:14,424 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Testare software
+2024-12-17 19:21:15,080 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 19:21:15,755 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 19:21:18,865 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Administrare sisteme
+2024-12-17 19:21:19,520 - JobAlertNotifier - INFO - [main:64] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 19:21:19,521 - JobAlertNotifier - INFO - [main:70] - Found 23 total jobs across all sources
+2024-12-17 19:21:19,521 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
+2024-12-17 19:21:19,522 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 7 matches
+2024-12-17 19:21:19,522 - JobAlertNotifier - INFO - [main:74] - Found 7 matching jobs for Romania
+2024-12-17 19:21:19,522 - JobAlertNotifier - INFO - [main:80] - Removed 0 duplicate jobs
+2024-12-17 19:21:20,589 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 7 jobs
+2024-12-17 19:21:20,590 - JobAlertNotifier - INFO - [telegram_notifier:190] - Sending notification for 7 jobs in 2 chunks
+2024-12-17 19:21:20,944 - JobAlertNotifier - INFO - [telegram_notifier:208] - Successfully sent Telegram notification in 2 parts

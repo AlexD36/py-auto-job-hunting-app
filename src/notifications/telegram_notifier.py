@@ -477,3 +477,24 @@ class TelegramNotifier(BaseNotifier):
         job_text.append(f"\n🔗 <a href='{job.url}'>Apply Here</a>")
         
         return "\n".join(job_text)
+
+    def _format_jobs(self, jobs: List[JobPosting]) -> str:
+        """Format multiple job postings into a single message.
+        
+        Args:
+            jobs (List[JobPosting]): List of jobs to format
+            
+        Returns:
+            str: Formatted message containing all jobs
+        """
+        if not jobs:
+            return ""
+        
+        # Format each job and join with separators
+        job_messages = [self._format_job(job) for job in jobs]
+        separator = "\n\n" + "=" * 30 + "\n\n"
+        
+        # Add header
+        header = "<b>🔍 New Job Opportunities!</b>\n\n"
+        
+        return header + separator.join(job_messages)
