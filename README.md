@@ -1,11 +1,11 @@
 
 # JobSprint
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4.12.3-yellowgreen)
-![Requests](https://img.shields.io/badge/Requests-2.31.0-ff69b4)
-![LXML](https://img.shields.io/badge/LXML-5.1.0-orange)
-![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-13.7-blueviolet)
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat&logo=python&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4.12.3-2A9D8F?style=flat)
+![Requests](https://img.shields.io/badge/Requests-2.31.0-264653?style=flat)
+![LXML](https://img.shields.io/badge/LXML-5.1.0-8AB17D?style=flat)
+![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-13.7-0088CC?style=flat&logo=telegram&logoColor=white)
 
 **JobSprint** is a smart and simple way to stay updated with the latest job opportunities. It scrapes job boards to find new job listings based on your preferences, then sends you real-time notifications via **Telegram** or **Email** whenever a matching job is posted.
 
