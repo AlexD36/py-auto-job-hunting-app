@@ -58,24 +58,34 @@ def setup_logger(log_file: str) -> logging.Logger:
     Returns:
         logging.Logger: Configured logger instance
     """
+    # Create logger
     logger = logging.getLogger("JobAlertNotifier")
+    
+    # Prevent adding handlers if they already exist
+    if logger.hasHandlers():
+        logger.handlers.clear()
+    
     logger.setLevel(logging.INFO)
     
-    # File handler with UTF-8 encoding
+    # Create formatters
+    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - [%(module)s:%(lineno)d] - %(message)s")
+    
+    # File handler for main log file
     file_handler = logging.FileHandler(log_file, encoding="utf-8")
     file_handler.setLevel(logging.INFO)
+    file_handler.setFormatter(formatter)
     
-    # Console handler with UTF-8 encoding
+    # Console handler
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setLevel(logging.INFO)
-    
-    # Formatter
-    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - [%(module)s:%(lineno)d] - %(message)s")
-    file_handler.setFormatter(formatter)
     console_handler.setFormatter(formatter)
     
+    # Add handlers to logger
     logger.addHandler(file_handler)
     logger.addHandler(console_handler)
+    
+    # Prevent propagation to prevent duplicate logs
+    logger.propagate = False
     
     return logger
 

@@ -1,0 +1,71 @@
+2024-12-17 18:54:15,410 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 18:54:37,675 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 18:54:37,675 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 18:54:38,396 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 18:54:38,933 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 18:54:39,601 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Stagiar
+2024-12-17 18:54:40,180 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Practică
+2024-12-17 18:54:40,665 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Program pentru absolvenți
+2024-12-17 18:54:41,192 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Program pentru studenți
+2024-12-17 18:54:41,714 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Pregătire profesională
+2024-12-17 18:54:42,204 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltator
+2024-12-17 18:54:42,810 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programator
+2024-12-17 18:54:43,320 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer software
+2024-12-17 18:54:43,816 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programare
+2024-12-17 18:54:44,323 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer
+2024-12-17 18:54:44,838 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltare
+2024-12-17 18:54:45,350 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnologie
+2024-12-17 18:54:45,833 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Aplicație
+2024-12-17 18:54:46,329 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Aplicații mobile
+2024-12-17 18:54:46,844 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 18:55:18,910 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnician IT
+2024-12-17 18:55:19,423 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web
+2024-12-17 18:55:19,978 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 18:55:20,470 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 18:55:21,015 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 18:55:21,554 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Testare software
+2024-12-17 18:55:22,117 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 18:55:22,613 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 18:55:25,755 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Administrare sisteme
+2024-12-17 18:55:26,465 - JobAlertNotifier - INFO - [main:64] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 18:55:26,466 - JobAlertNotifier - INFO - [main:70] - Found 23 total jobs across all sources
+2024-12-17 18:55:26,467 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
+2024-12-17 18:55:26,468 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 7 matches
+2024-12-17 18:55:26,468 - JobAlertNotifier - INFO - [main:74] - Found 7 matching jobs for Romania
+2024-12-17 18:55:28,301 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 7 jobs
+2024-12-17 18:57:02,309 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 18:57:23,025 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 18:57:23,027 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 18:57:23,649 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 18:57:24,123 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 18:57:24,609 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Stagiar
+2024-12-17 18:57:25,081 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Practică
+2024-12-17 18:57:25,564 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Program pentru absolvenți
+2024-12-17 18:57:26,030 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Program pentru studenți
+2024-12-17 18:57:26,543 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Pregătire profesională
+2024-12-17 18:57:27,016 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltator
+2024-12-17 18:57:27,488 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programator
+2024-12-17 18:57:27,991 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer software
+2024-12-17 18:57:28,479 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programare
+2024-12-17 18:57:28,994 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Inginer
+2024-12-17 18:57:29,457 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Dezvoltare
+2024-12-17 18:57:29,970 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnologie
+2024-12-17 18:57:30,456 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Aplicație
+2024-12-17 18:57:30,944 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Aplicații mobile
+2024-12-17 18:57:31,435 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 18:58:01,424 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tehnician IT
+2024-12-17 18:58:02,064 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web
+2024-12-17 18:58:02,552 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 18:58:03,059 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 18:58:03,528 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 18:58:04,030 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Testare software
+2024-12-17 18:58:04,520 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 18:58:05,009 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 18:58:07,985 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Administrare sisteme
+2024-12-17 18:58:08,476 - JobAlertNotifier - INFO - [main:64] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 18:58:08,477 - JobAlertNotifier - INFO - [main:70] - Found 23 total jobs across all sources
+2024-12-17 18:58:08,478 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
+2024-12-17 18:58:08,479 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 7 matches
+2024-12-17 18:58:08,479 - JobAlertNotifier - INFO - [main:74] - Found 7 matching jobs for Romania
+2024-12-17 18:58:08,480 - JobAlertNotifier - INFO - [main:80] - Removed 0 duplicate jobs
+2024-12-17 18:58:09,577 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 7 jobs

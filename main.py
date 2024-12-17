@@ -75,8 +75,13 @@ async def main() -> None:
         
         # Send notifications if there are matching jobs
         if filtered_jobs:
-            email_notifier.send_notification(filtered_jobs)
-            telegram_notifier.send_notification(filtered_jobs)
+            # Remove duplicates based on job URL
+            unique_jobs = list({job.url: job for job in filtered_jobs}.values())
+            logger.info(f"Removed {len(filtered_jobs) - len(unique_jobs)} duplicate jobs")
+            
+            # Send notifications with deduplicated jobs
+            email_notifier.send_notification(unique_jobs)
+            telegram_notifier.send_notification(unique_jobs)
             
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
