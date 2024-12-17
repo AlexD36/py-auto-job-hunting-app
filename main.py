@@ -3,7 +3,7 @@ Job Alert Notifier - Main entry point
 """
 from src.config.config import load_config
 from src.utils.logger import setup_logger
-from src.utils.filters import JobFilter, ROMANIA_FILTER_CRITERIA, INTERNATIONAL_FILTER_CRITERIA
+from src.utils.filters import JobFilter, ROMANIA_FILTER_CRITERIA, INTERNATIONAL_FILTER_CRITERIA, FilterCriteria
 from src.scrapers.remoteco import RemoteCoScraper
 from src.scrapers.linkedin import LinkedInScraper
 from src.scrapers.weworkremotely import WeWorkRemotelyScraper
@@ -37,9 +37,19 @@ async def main() -> None:
     logger.info("Starting Job Alert Notifier")
     
     try:
-        # Initialize job filter (Romania OR International)
-        #job_filter = JobFilter(ROMANIA_FILTER_CRITERIA)
-        job_filter = JobFilter(INTERNATIONAL_FILTER_CRITERIA)
+        # Choose which filter criteria to use
+        FILTER_CRITERIA = FilterCriteria(
+            keywords=INTERNATIONAL_FILTER_CRITERIA.keywords,
+            locations=[],  # Empty locations list
+            include_unspecified_locations=True,
+            max_days_old=30,
+            exact_match=False,
+            use_regex=False,
+            excluded_titles=INTERNATIONAL_FILTER_CRITERIA.excluded_titles
+        )
+
+        # Initialize job filter with modified criteria
+        job_filter = JobFilter(FILTER_CRITERIA)
         
         # Initialize notifiers
         email_notifier = EmailNotifier(
@@ -60,7 +70,7 @@ async def main() -> None:
         for scraper_class in SCRAPERS:
             try:
                 scraper = scraper_class()
-                jobs = scraper.scrape_jobs(ROMANIA_FILTER_CRITERIA.keywords)
+                jobs = scraper.scrape_jobs(FILTER_CRITERIA.keywords)
                 logger.info(f"Found {len(jobs)} jobs from {scraper_class.__name__}")
                 all_jobs.extend(jobs)
             except Exception as scraper_error:

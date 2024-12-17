@@ -1,7 +1,7 @@
 """
 Job filtering utilities with enhanced text normalization and logging
 """
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import List, Optional, Set
 import re
 import logging
@@ -21,6 +21,8 @@ class FilterCriteria:
         max_days_old: Maximum age of job posting in days
         exact_match: Whether to require exact keyword matches
         use_regex: Whether to treat keywords as regular expressions
+        categories: List of job categories to include
+        excluded_titles: List of job titles to exclude
     """
     keywords: List[str]
     locations: List[str]
@@ -28,6 +30,22 @@ class FilterCriteria:
     max_days_old: Optional[int] = None
     exact_match: bool = False
     use_regex: bool = False
+    categories: List[str] = field(default_factory=lambda: ["programming", "devops-sysadmin"])
+    excluded_titles: List[str] = field(default_factory=lambda: [
+        "insurance",
+        "sales",
+        "marketing",
+        "business development",
+        "customer service",
+        "support",
+        "account manager",
+        "growth",
+        "social media",
+        "advisor",
+        "representative",
+        "salesperson",
+        "coaching"
+    ])
 
 def normalize_text(text: Optional[str]) -> str:
     """
@@ -207,48 +225,75 @@ class JobFilter:
         return True
 
     def filter_jobs(self, jobs: List[JobPosting]) -> List[JobPosting]:
-        """
-        Filter jobs based on all criteria
-        
-        Args:
-            jobs: List of JobPosting objects to filter
-            
-        Returns:
-            List[JobPosting]: Filtered list of jobs
-        """
-        if not jobs:
-            self.logger.info("No jobs to filter")
-            return []
-            
+        """Filter jobs based on criteria"""
         self.logger.info(f"Filtering {len(jobs)} jobs")
         filtered_jobs = []
         
         for job in jobs:
             try:
-                # Skip if job doesn't match keywords
-                if not self.matches_keywords(job):
-                    continue
-                    
-                # Skip if job doesn't match location
-                if not self.matches_location(job):
-                    continue
-                    
-                # Skip if job doesn't match date criteria
-                if not self.matches_date_criteria(job):
-                    continue
-                    
-                filtered_jobs.append(job)
+                # Log the job being processed
+                self.logger.debug(f"Processing job: {job.title}")
                 
-            except Exception as e:
-                self.logger.error(
-                    f"Error filtering job {job.title}: {str(e)}"
+                # Check excluded titles first
+                if any(excluded.lower() in job.title.lower() 
+                      for excluded in self.criteria.excluded_titles):
+                    self.logger.debug(f"Job {job.title} excluded by title")
+                    continue
+                
+                # More lenient category matching
+                category_match = any(
+                    category.lower() in job.title.lower() or 
+                    (job.description and category.lower() in job.description.lower())
+                    for category in self.criteria.categories
                 )
-                continue
                 
-        self.logger.info(
-            f"Filtered {len(jobs)} jobs down to {len(filtered_jobs)} matches"
-        )
+                if not category_match:
+                    self.logger.debug(f"Job {job.title} failed category match")
+                    continue
+                
+                # More lenient keyword matching
+                keyword_match = any(
+                    keyword.lower() in job.title.lower() or 
+                    (job.description and keyword.lower() in job.description.lower()) or
+                    any(related.lower() in job.title.lower() or 
+                        (job.description and related.lower() in job.description.lower())
+                        for related in self._get_related_terms(keyword))
+                    for keyword in self.criteria.keywords
+                )
+                
+                if keyword_match:
+                    filtered_jobs.append(job)
+                    self.logger.debug(f"Job {job.title} matched filters")
+                else:
+                    self.logger.debug(f"Job {job.title} failed keyword match")
+                    
+            except Exception as e:
+                self.logger.error(f"Error filtering job {job.title}: {str(e)}")
+                continue
+        
+        self.logger.info(f"Filtered {len(jobs)} jobs down to {len(filtered_jobs)} matches")
         return filtered_jobs
+
+    def _get_related_terms(self, keyword: str) -> List[str]:
+        """Get related terms for a keyword"""
+        related_terms = {
+            "developer": ["engineer", "programmer", "dev", "coding", "software"],
+            "engineer": ["developer", "programming", "technical", "software"],
+            "devops": ["sysadmin", "infrastructure", "cloud", "aws", "azure"],
+            "frontend": ["react", "vue", "angular", "javascript", "typescript"],
+            "backend": ["python", "java", "node", "api", "database"],
+            "intern": ["internship", "student", "graduate", "junior", "entry"],
+            "junior": ["entry level", "graduate", "intern", "trainee"],
+            "software": ["developer", "engineer", "programming", "coder"],
+            "data": ["analytics", "scientist", "analysis", "ml", "ai"],
+            "security": ["cybersecurity", "infosec", "cyber"]
+        }
+        
+        keyword_lower = keyword.lower()
+        for base_term, related in related_terms.items():
+            if base_term in keyword_lower:
+                return related
+        return []
 
     def log_filter_reason(self, job: JobPosting, reason: str) -> None:
         """
@@ -318,47 +363,39 @@ ROMANIA_FILTER_CRITERIA = FilterCriteria(
     include_unspecified_locations=True,
     max_days_old=30,
     exact_match=False,
-    use_regex=False
+    use_regex=False,
+    excluded_titles=[
+        "insurance",
+        "sales",
+        "marketing",
+        "business development",
+        "customer service",
+        "support",
+        "account manager",
+        "growth",
+        "social media",
+        "advisor",
+        "representative",
+        "salesperson",
+        "coaching"
+    ]
 )
 
 # Filter criteria for international jobs
 INTERNATIONAL_FILTER_CRITERIA = FilterCriteria(
     keywords=[
-        # Internship-related keywords in English
-        "Intern",
-        "Internship",
-        "Student",
-        "Trainee",
-        "Graduate Program",
-        "Student Program",
-        "Entry Level",
-        "Trainee Program",
-
-        # Programming-related keywords in English
-        "Developer",
-        "Software Engineer",
-        "Software Developer",
-        "Programming",
-        "Engineer",
-        "Software Development",
-        "IT",
-        "Tech",
-        "Application",
-        "Web Developer",
-        "Mobile Developer",
-        "Full Stack",
-        "Frontend",
-        "Backend",
-        "DevOps",
-        "QA",
-        "Quality Assurance",
-        "Test Engineer",
-        "Cloud Engineer",
-        "System Administrator",
-        "Cybersecurity",
-        "AI Developer",
-        "Data Scientist",
-        "Machine Learning",
+        # Entry level positions
+        "intern", "internship", "junior", "entry level", "graduate",
+        "trainee", "student", "entry-level", "junior developer",
+        
+        # Development roles
+        "software engineer", "developer", "programmer", "full stack",
+        "frontend", "backend", "web developer", "python developer",
+        
+        # Specialized roles
+        "devops", "cloud engineer", "qa engineer", "test engineer",
+        "data scientist", "machine learning", "ai developer",
+        "cybersecurity", "security engineer"
     ],
     locations=[
         # Location types
@@ -392,5 +429,20 @@ INTERNATIONAL_FILTER_CRITERIA = FilterCriteria(
     include_unspecified_locations=True,
     max_days_old=30,
     exact_match=False,
-    use_regex=False
+    use_regex=False,
+    excluded_titles=[
+        "insurance",
+        "sales",
+        "marketing",
+        "business development",
+        "customer service",
+        "support",
+        "account manager",
+        "growth",
+        "social media",
+        "advisor",
+        "representative",
+        "salesperson",
+        "coaching"
+    ]
 )

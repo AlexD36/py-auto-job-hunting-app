@@ -263,3 +263,707 @@
 2024-12-17 19:21:20,589 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 7 jobs
 2024-12-17 19:21:20,590 - JobAlertNotifier - INFO - [telegram_notifier:190] - Sending notification for 7 jobs in 2 chunks
 2024-12-17 19:21:20,944 - JobAlertNotifier - INFO - [telegram_notifier:208] - Successfully sent Telegram notification in 2 parts
+2024-12-17 19:33:54,778 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 19:34:15,480 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 19:34:15,481 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 19:34:15,951 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 19:34:16,427 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 19:34:16,909 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Graduate Program
+2024-12-17 19:34:17,399 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student Program
+2024-12-17 19:34:17,926 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Entry Level
+2024-12-17 19:34:18,466 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee Program
+2024-12-17 19:34:18,952 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Developer
+2024-12-17 19:34:19,430 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Engineer
+2024-12-17 19:34:19,905 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Developer
+2024-12-17 19:34:20,401 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programming
+2024-12-17 19:34:20,906 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Engineer
+2024-12-17 19:34:21,393 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Development
+2024-12-17 19:34:21,878 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 19:34:51,806 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tech
+2024-12-17 19:34:52,286 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Application
+2024-12-17 19:34:52,748 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web Developer
+2024-12-17 19:34:53,284 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Mobile Developer
+2024-12-17 19:34:53,780 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 19:34:54,268 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 19:34:54,730 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 19:34:55,213 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 19:34:58,210 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 19:34:58,678 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Quality Assurance
+2024-12-17 19:34:59,172 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Test Engineer
+2024-12-17 19:34:59,658 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cloud Engineer
+2024-12-17 19:35:00,150 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: System Administrator
+2024-12-17 19:35:00,694 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cybersecurity
+2024-12-17 19:35:01,253 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: AI Developer
+2024-12-17 19:35:01,768 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Data Scientist
+2024-12-17 19:35:02,308 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Machine Learning
+2024-12-17 19:35:02,784 - JobAlertNotifier - INFO - [main:66] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 19:35:02,785 - JobAlertNotifier - INFO - [main:72] - Found 23 total jobs across all sources
+2024-12-17 19:35:02,785 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
+2024-12-17 19:35:02,786 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 7 matches
+2024-12-17 19:35:02,786 - JobAlertNotifier - INFO - [main:76] - Found 7 matching jobs for Romania
+2024-12-17 19:35:02,786 - JobAlertNotifier - INFO - [main:82] - Removed 0 duplicate jobs
+2024-12-17 19:35:04,027 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 7 jobs
+2024-12-17 19:35:04,027 - JobAlertNotifier - INFO - [telegram_notifier:190] - Sending notification for 7 jobs in 2 chunks
+2024-12-17 19:35:04,370 - JobAlertNotifier - INFO - [telegram_notifier:208] - Successfully sent Telegram notification in 2 parts
+2024-12-17 19:38:35,135 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 19:38:55,892 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 19:38:55,892 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 19:38:56,526 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 19:38:57,436 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 19:38:58,074 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Graduate Program
+2024-12-17 19:38:58,560 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student Program
+2024-12-17 19:38:59,039 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Entry Level
+2024-12-17 19:38:59,610 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee Program
+2024-12-17 19:39:00,161 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Developer
+2024-12-17 19:39:00,631 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Engineer
+2024-12-17 19:39:01,097 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Developer
+2024-12-17 19:39:01,600 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programming
+2024-12-17 19:39:02,092 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Engineer
+2024-12-17 19:39:02,572 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Development
+2024-12-17 19:39:03,046 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 19:39:33,082 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tech
+2024-12-17 19:39:33,570 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Application
+2024-12-17 19:39:34,069 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web Developer
+2024-12-17 19:39:34,631 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Mobile Developer
+2024-12-17 19:39:35,125 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 19:39:35,602 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 19:39:36,119 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 19:39:36,614 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 19:39:39,634 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 19:39:40,101 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Quality Assurance
+2024-12-17 19:39:40,578 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Test Engineer
+2024-12-17 19:39:41,069 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cloud Engineer
+2024-12-17 19:39:41,543 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: System Administrator
+2024-12-17 19:39:42,042 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cybersecurity
+2024-12-17 19:39:42,534 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: AI Developer
+2024-12-17 19:39:43,065 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Data Scientist
+2024-12-17 19:39:43,542 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Machine Learning
+2024-12-17 19:39:44,040 - JobAlertNotifier - INFO - [main:66] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 19:39:44,041 - JobAlertNotifier - INFO - [main:72] - Found 23 total jobs across all sources
+2024-12-17 19:39:44,041 - JobAlertNotifier - INFO - [filters:223] - Filtering 23 jobs
+2024-12-17 19:39:44,042 - JobAlertNotifier - INFO - [filters:248] - Filtered 23 jobs down to 7 matches
+2024-12-17 19:39:44,042 - JobAlertNotifier - INFO - [main:76] - Found 7 matching jobs for Romania
+2024-12-17 19:39:44,042 - JobAlertNotifier - INFO - [main:82] - Removed 0 duplicate jobs
+2024-12-17 19:39:45,124 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 7 jobs
+2024-12-17 19:39:45,125 - JobAlertNotifier - INFO - [telegram_notifier:190] - Sending notification for 7 jobs in 2 chunks
+2024-12-17 19:39:45,613 - JobAlertNotifier - INFO - [telegram_notifier:208] - Successfully sent Telegram notification in 2 parts
+2024-12-17 19:42:57,190 - JobAlertNotifier - ERROR - [main:71] - Error with WeWorkRemotelyScraper: WeWorkRemotelyScraper.scrape_jobs() got an unexpected keyword argument 'category'
+2024-12-17 19:42:57,190 - JobAlertNotifier - INFO - [main:74] - Found 0 total jobs across all sources
+2024-12-17 19:42:57,190 - JobAlertNotifier - INFO - [filters:224] - No jobs to filter
+2024-12-17 19:42:57,191 - JobAlertNotifier - INFO - [main:78] - Found 0 matching jobs for Romania
+2024-12-17 19:43:45,222 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 19:44:05,884 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 19:44:05,884 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 19:44:06,378 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 19:44:06,890 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 19:44:07,405 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Graduate Program
+2024-12-17 19:44:07,913 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student Program
+2024-12-17 19:44:08,490 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Entry Level
+2024-12-17 19:44:09,015 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee Program
+2024-12-17 19:44:09,497 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Developer
+2024-12-17 19:44:09,958 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Engineer
+2024-12-17 19:44:10,427 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Developer
+2024-12-17 19:44:10,913 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programming
+2024-12-17 19:44:11,409 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Engineer
+2024-12-17 19:44:11,880 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Development
+2024-12-17 19:44:12,340 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 19:44:42,396 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tech
+2024-12-17 19:44:43,150 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Application
+2024-12-17 19:44:43,646 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web Developer
+2024-12-17 19:44:44,201 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Mobile Developer
+2024-12-17 19:44:44,667 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 19:44:45,131 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 19:44:45,596 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 19:44:46,088 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 19:44:49,065 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 19:44:49,551 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Quality Assurance
+2024-12-17 19:44:50,122 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Test Engineer
+2024-12-17 19:44:50,590 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cloud Engineer
+2024-12-17 19:44:51,138 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: System Administrator
+2024-12-17 19:44:51,617 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cybersecurity
+2024-12-17 19:44:52,146 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: AI Developer
+2024-12-17 19:44:52,709 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Data Scientist
+2024-12-17 19:44:53,281 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Machine Learning
+2024-12-17 19:44:53,823 - JobAlertNotifier - INFO - [main:66] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 19:44:53,823 - JobAlertNotifier - INFO - [main:72] - Found 23 total jobs across all sources
+2024-12-17 19:44:53,824 - JobAlertNotifier - INFO - [filters:227] - Filtering 23 jobs
+2024-12-17 19:44:53,824 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Remote Salesperson for High-Ticket Coaching Programme: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:44:53,824 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Business Development Representative (Startup): 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:44:53,825 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Benefit Advisor - No Experience necessary!: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:44:53,825 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Social Media Growth Manager: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:44:53,825 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Head of Growth Marketing: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:44:53,825 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Life Insurance Agent - Remote: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:44:53,826 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Global Business Development Manager: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:44:53,826 - JobAlertNotifier - INFO - [filters:272] - Filtered 23 jobs down to 0 matches
+2024-12-17 19:44:53,826 - JobAlertNotifier - INFO - [main:76] - Found 0 matching jobs for Romania
+2024-12-17 19:45:58,267 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 19:46:18,896 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 19:46:18,896 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 19:46:19,367 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 19:46:19,897 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 19:46:20,412 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Graduate Program
+2024-12-17 19:46:20,915 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student Program
+2024-12-17 19:46:21,380 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Entry Level
+2024-12-17 19:46:21,845 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee Program
+2024-12-17 19:46:22,312 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Developer
+2024-12-17 19:46:22,817 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Engineer
+2024-12-17 19:46:23,272 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Developer
+2024-12-17 19:46:23,767 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programming
+2024-12-17 19:46:24,250 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Engineer
+2024-12-17 19:46:24,760 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Development
+2024-12-17 19:46:25,378 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 19:46:55,639 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tech
+2024-12-17 19:46:56,137 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Application
+2024-12-17 19:46:56,615 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web Developer
+2024-12-17 19:46:57,131 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Mobile Developer
+2024-12-17 19:46:57,623 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 19:46:58,107 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 19:46:58,577 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 19:46:59,094 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 19:47:02,131 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 19:47:02,590 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Quality Assurance
+2024-12-17 19:47:03,097 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Test Engineer
+2024-12-17 19:47:03,556 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cloud Engineer
+2024-12-17 19:47:04,037 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: System Administrator
+2024-12-17 19:47:04,528 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cybersecurity
+2024-12-17 19:47:05,038 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: AI Developer
+2024-12-17 19:47:05,508 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Data Scientist
+2024-12-17 19:47:05,999 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Machine Learning
+2024-12-17 19:47:06,471 - JobAlertNotifier - INFO - [main:66] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 19:47:06,472 - JobAlertNotifier - INFO - [main:72] - Found 23 total jobs across all sources
+2024-12-17 19:47:06,472 - JobAlertNotifier - INFO - [filters:227] - Filtering 23 jobs
+2024-12-17 19:47:06,472 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Remote Salesperson for High-Ticket Coaching Programme: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:47:06,473 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Business Development Representative (Startup): 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:47:06,473 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Benefit Advisor - No Experience necessary!: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:47:06,474 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Social Media Growth Manager: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:47:06,474 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Head of Growth Marketing: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:47:06,474 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Life Insurance Agent - Remote: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:47:06,474 - JobAlertNotifier - ERROR - [filters:267] - Error filtering job Global Business Development Manager: 'FilterCriteria' object has no attribute 'excluded_titles'
+2024-12-17 19:47:06,475 - JobAlertNotifier - INFO - [filters:272] - Filtered 23 jobs down to 0 matches
+2024-12-17 19:47:06,475 - JobAlertNotifier - INFO - [main:76] - Found 0 matching jobs for Romania
+2024-12-17 19:48:13,469 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 19:48:34,501 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 19:48:34,501 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 19:48:34,992 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 19:48:35,503 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 19:48:36,026 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Graduate Program
+2024-12-17 19:48:36,507 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student Program
+2024-12-17 19:48:36,995 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Entry Level
+2024-12-17 19:48:37,485 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee Program
+2024-12-17 19:48:37,963 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Developer
+2024-12-17 19:48:38,436 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Engineer
+2024-12-17 19:48:39,019 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Developer
+2024-12-17 19:48:39,587 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programming
+2024-12-17 19:48:40,101 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Engineer
+2024-12-17 19:48:40,639 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Development
+2024-12-17 19:48:41,274 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 19:49:11,550 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tech
+2024-12-17 19:49:12,028 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Application
+2024-12-17 19:49:12,561 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web Developer
+2024-12-17 19:49:13,104 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Mobile Developer
+2024-12-17 19:49:13,652 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 19:49:14,133 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 19:49:14,651 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 19:49:15,143 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 19:49:18,172 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 19:49:18,661 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Quality Assurance
+2024-12-17 19:49:19,150 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Test Engineer
+2024-12-17 19:49:19,670 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cloud Engineer
+2024-12-17 19:49:20,167 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: System Administrator
+2024-12-17 19:49:20,727 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cybersecurity
+2024-12-17 19:49:21,234 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: AI Developer
+2024-12-17 19:49:21,733 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Data Scientist
+2024-12-17 19:49:22,338 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Machine Learning
+2024-12-17 19:49:22,824 - JobAlertNotifier - INFO - [main:66] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 19:49:22,825 - JobAlertNotifier - INFO - [main:72] - Found 23 total jobs across all sources
+2024-12-17 19:49:22,825 - JobAlertNotifier - INFO - [filters:241] - Filtering 23 jobs
+2024-12-17 19:49:22,826 - JobAlertNotifier - INFO - [filters:286] - Filtered 23 jobs down to 0 matches
+2024-12-17 19:49:22,826 - JobAlertNotifier - INFO - [main:76] - Found 0 matching jobs for Romania
+2024-12-17 19:49:50,474 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 19:50:11,442 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 19:50:11,443 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 19:50:11,954 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 19:50:12,447 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 19:50:12,941 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Graduate Program
+2024-12-17 19:50:13,484 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student Program
+2024-12-17 19:50:14,005 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Entry Level
+2024-12-17 19:50:14,611 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee Program
+2024-12-17 19:50:15,175 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Developer
+2024-12-17 19:50:15,683 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Engineer
+2024-12-17 19:50:16,227 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Developer
+2024-12-17 19:50:16,728 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programming
+2024-12-17 19:50:17,292 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Engineer
+2024-12-17 19:50:17,762 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Development
+2024-12-17 19:50:18,225 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 19:50:48,726 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tech
+2024-12-17 19:50:49,211 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Application
+2024-12-17 19:50:49,869 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web Developer
+2024-12-17 19:50:50,424 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Mobile Developer
+2024-12-17 19:50:50,939 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 19:50:51,407 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 19:50:51,882 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 19:50:52,379 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 19:50:55,366 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 19:50:55,861 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Quality Assurance
+2024-12-17 19:50:56,347 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Test Engineer
+2024-12-17 19:50:56,868 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cloud Engineer
+2024-12-17 19:50:57,413 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: System Administrator
+2024-12-17 19:50:57,957 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cybersecurity
+2024-12-17 19:50:58,462 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: AI Developer
+2024-12-17 19:50:58,964 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Data Scientist
+2024-12-17 19:50:59,463 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Machine Learning
+2024-12-17 19:50:59,945 - JobAlertNotifier - INFO - [main:66] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 19:50:59,946 - JobAlertNotifier - INFO - [main:72] - Found 23 total jobs across all sources
+2024-12-17 19:50:59,946 - JobAlertNotifier - INFO - [filters:241] - Filtering 23 jobs
+2024-12-17 19:50:59,947 - JobAlertNotifier - INFO - [filters:286] - Filtered 23 jobs down to 0 matches
+2024-12-17 19:50:59,947 - JobAlertNotifier - INFO - [main:76] - Found 0 matching jobs for Romania
+2024-12-17 19:51:34,452 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Intern
+2024-12-17 19:51:55,165 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 19:51:55,166 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Internship
+2024-12-17 19:51:55,660 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student
+2024-12-17 19:51:56,145 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee
+2024-12-17 19:51:56,704 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Graduate Program
+2024-12-17 19:51:57,211 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Student Program
+2024-12-17 19:51:57,755 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Entry Level
+2024-12-17 19:51:58,255 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Trainee Program
+2024-12-17 19:51:58,914 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Developer
+2024-12-17 19:51:59,461 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Engineer
+2024-12-17 19:51:59,944 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Developer
+2024-12-17 19:52:00,418 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Programming
+2024-12-17 19:52:00,953 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Engineer
+2024-12-17 19:52:01,428 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Software Development
+2024-12-17 19:52:01,944 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category copywriting for keyword: IT
+2024-12-17 19:52:31,958 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Tech
+2024-12-17 19:52:32,467 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Application
+2024-12-17 19:52:32,938 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Web Developer
+2024-12-17 19:52:33,443 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Mobile Developer
+2024-12-17 19:52:33,914 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Full Stack
+2024-12-17 19:52:34,401 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Frontend
+2024-12-17 19:52:34,926 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Backend
+2024-12-17 19:52:35,420 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: DevOps
+2024-12-17 19:52:38,470 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: QA
+2024-12-17 19:52:39,116 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Quality Assurance
+2024-12-17 19:52:39,616 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Test Engineer
+2024-12-17 19:52:40,129 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cloud Engineer
+2024-12-17 19:52:40,623 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: System Administrator
+2024-12-17 19:52:41,162 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Cybersecurity
+2024-12-17 19:52:41,652 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: AI Developer
+2024-12-17 19:52:42,262 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Data Scientist
+2024-12-17 19:52:42,887 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: Machine Learning
+2024-12-17 19:52:43,360 - JobAlertNotifier - INFO - [main:66] - Found 23 jobs from WeWorkRemotelyScraper
+2024-12-17 19:52:43,360 - JobAlertNotifier - INFO - [main:72] - Found 23 total jobs across all sources
+2024-12-17 19:52:43,360 - JobAlertNotifier - INFO - [filters:241] - Filtering 23 jobs
+2024-12-17 19:52:43,361 - JobAlertNotifier - INFO - [filters:286] - Filtered 23 jobs down to 0 matches
+2024-12-17 19:52:43,361 - JobAlertNotifier - INFO - [main:76] - Found 0 matching jobs for Romania
+2024-12-17 19:54:59,826 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: intern
+2024-12-17 19:55:02,506 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:03,933 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:05,405 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:06,837 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:08,221 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:09,620 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:10,996 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:12,455 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:13,876 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:15,254 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:16,643 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:18,032 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:19,429 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:20,807 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:20,807 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 19:55:20,807 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: intern
+2024-12-17 19:55:22,422 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:23,799 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:23,799 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: intern
+2024-12-17 19:55:26,520 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:27,918 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:29,301 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:30,690 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:32,137 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:33,576 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:34,974 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:36,375 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:37,762 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:39,172 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:40,561 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:41,955 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:43,354 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:44,745 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:46,127 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:47,537 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:48,951 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:50,347 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:51,746 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:53,116 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:54,513 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:55,904 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:57,320 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:55:58,703 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:00,079 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:01,489 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:02,904 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:04,293 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:05,727 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:07,120 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:08,575 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:09,972 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:11,358 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:12,738 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:14,131 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:15,534 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:16,904 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:18,286 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:19,683 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:21,079 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:22,512 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:23,918 - JobAlertNotifier - ERROR - [weworkremotely:281] - Error processing job item: name 'keyword_lower' is not defined
+2024-12-17 19:56:23,918 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: internship
+2024-12-17 19:56:24,387 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: internship
+2024-12-17 19:56:24,617 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: internship
+2024-12-17 19:56:26,040 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: junior
+2024-12-17 19:56:26,516 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: junior
+2024-12-17 19:56:26,728 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: junior
+2024-12-17 19:56:28,125 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: entry level
+2024-12-17 19:56:28,671 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: entry level
+2024-12-17 19:56:28,884 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: entry level
+2024-12-17 19:56:30,013 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: graduate
+2024-12-17 19:56:30,506 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: graduate
+2024-12-17 19:56:30,730 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: graduate
+2024-12-17 19:56:31,857 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: trainee
+2024-12-17 19:56:32,328 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: trainee
+2024-12-17 19:56:32,536 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: trainee
+2024-12-17 19:56:33,784 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: student
+2024-12-17 19:56:34,319 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: student
+2024-12-17 19:56:34,573 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: student
+2024-12-17 19:56:35,852 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: entry-level
+2024-12-17 19:56:36,484 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: entry-level
+2024-12-17 19:56:36,696 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: entry-level
+2024-12-17 19:56:37,935 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: junior developer
+2024-12-17 19:56:38,408 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: junior developer
+2024-12-17 19:56:38,992 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: junior developer
+2024-12-17 19:56:40,299 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: software engineer
+2024-12-17 19:56:40,795 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: software engineer
+2024-12-17 19:56:41,036 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: software engineer
+2024-12-17 19:56:42,292 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: developer
+2024-12-17 19:56:42,782 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: developer
+2024-12-17 19:56:42,997 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: developer
+2024-12-17 19:56:44,260 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: programmer
+2024-12-17 19:56:44,783 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: programmer
+2024-12-17 19:56:44,999 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: programmer
+2024-12-17 19:56:46,154 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: full stack
+2024-12-17 19:56:46,631 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: full stack
+2024-12-17 19:56:46,841 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: full stack
+2024-12-17 19:56:48,061 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: frontend
+2024-12-17 19:56:48,542 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: frontend
+2024-12-17 19:56:48,750 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: frontend
+2024-12-17 19:56:50,078 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: backend
+2024-12-17 19:56:50,713 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: backend
+2024-12-17 19:56:50,933 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: backend
+2024-12-17 19:56:52,097 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: web developer
+2024-12-17 19:56:52,601 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: web developer
+2024-12-17 19:56:52,819 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: web developer
+2024-12-17 19:56:54,241 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: python developer
+2024-12-17 19:56:54,748 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: python developer
+2024-12-17 19:56:54,974 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: python developer
+2024-12-17 19:56:56,203 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: devops
+2024-12-17 19:56:56,676 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: devops
+2024-12-17 19:56:56,893 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: devops
+2024-12-17 19:56:58,079 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: cloud engineer
+2024-12-17 19:56:58,577 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: cloud engineer
+2024-12-17 19:56:58,811 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: cloud engineer
+2024-12-17 19:57:00,057 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: qa engineer
+2024-12-17 19:57:00,647 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: qa engineer
+2024-12-17 19:57:00,860 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: qa engineer
+2024-12-17 19:57:01,997 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: test engineer
+2024-12-17 19:57:02,499 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: test engineer
+2024-12-17 19:57:02,728 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: test engineer
+2024-12-17 19:57:03,950 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: data scientist
+2024-12-17 19:57:04,424 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: data scientist
+2024-12-17 19:57:04,636 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: data scientist
+2024-12-17 19:57:05,790 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: machine learning
+2024-12-17 19:57:06,288 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: machine learning
+2024-12-17 19:57:06,598 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: machine learning
+2024-12-17 19:57:07,861 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: ai developer
+2024-12-17 19:57:08,369 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: ai developer
+2024-12-17 19:57:08,583 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: ai developer
+2024-12-17 19:57:09,984 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: cybersecurity
+2024-12-17 19:57:10,481 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: cybersecurity
+2024-12-17 19:57:10,728 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: cybersecurity
+2024-12-17 19:57:12,086 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category programming for keyword: security engineer
+2024-12-17 19:57:12,567 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category devops-sysadmin for keyword: security engineer
+2024-12-17 19:57:12,784 - JobAlertNotifier - INFO - [weworkremotely:210] - Scraping WWR category quality-assurance for keyword: security engineer
+2024-12-17 19:57:13,949 - JobAlertNotifier - INFO - [main:66] - Found 0 jobs from WeWorkRemotelyScraper
+2024-12-17 19:57:13,949 - JobAlertNotifier - INFO - [main:72] - Found 0 total jobs across all sources
+2024-12-17 19:57:13,949 - JobAlertNotifier - INFO - [filters:238] - No jobs to filter
+2024-12-17 19:57:13,949 - JobAlertNotifier - INFO - [main:76] - Found 0 matching jobs for Romania
+2024-12-17 19:57:55,100 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: intern
+2024-12-17 19:58:15,937 - JobAlertNotifier - ERROR - [weworkremotely:282] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 19:58:15,938 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: intern
+2024-12-17 19:58:18,936 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: intern
+2024-12-17 19:59:19,781 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: internship
+2024-12-17 19:59:20,406 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: internship
+2024-12-17 19:59:20,778 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: internship
+2024-12-17 19:59:21,961 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: junior
+2024-12-17 19:59:22,513 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: junior
+2024-12-17 19:59:22,858 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: junior
+2024-12-17 19:59:24,008 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: entry level
+2024-12-17 19:59:24,505 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: entry level
+2024-12-17 19:59:24,854 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: entry level
+2024-12-17 19:59:25,969 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: graduate
+2024-12-17 19:59:26,463 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: graduate
+2024-12-17 19:59:26,800 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: graduate
+2024-12-17 19:59:27,925 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: trainee
+2024-12-17 19:59:28,424 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: trainee
+2024-12-17 19:59:28,772 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: trainee
+2024-12-17 19:59:30,197 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: student
+2024-12-17 19:59:30,695 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: student
+2024-12-17 19:59:31,025 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: student
+2024-12-17 19:59:32,176 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: entry-level
+2024-12-17 19:59:32,689 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: entry-level
+2024-12-17 19:59:33,016 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: entry-level
+2024-12-17 19:59:34,209 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: junior developer
+2024-12-17 19:59:34,714 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: junior developer
+2024-12-17 19:59:35,047 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: junior developer
+2024-12-17 19:59:36,304 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: software engineer
+2024-12-17 19:59:36,833 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: software engineer
+2024-12-17 19:59:37,177 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: software engineer
+2024-12-17 19:59:38,430 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: developer
+2024-12-17 19:59:39,168 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: developer
+2024-12-17 19:59:39,519 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: developer
+2024-12-17 19:59:40,796 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: programmer
+2024-12-17 19:59:41,356 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: programmer
+2024-12-17 19:59:41,748 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: programmer
+2024-12-17 19:59:42,906 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: full stack
+2024-12-17 19:59:43,390 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: full stack
+2024-12-17 19:59:43,745 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: full stack
+2024-12-17 19:59:44,915 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: frontend
+2024-12-17 19:59:45,415 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: frontend
+2024-12-17 19:59:45,743 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: frontend
+2024-12-17 19:59:47,104 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: backend
+2024-12-17 19:59:47,684 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: backend
+2024-12-17 19:59:48,006 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: backend
+2024-12-17 19:59:49,197 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: web developer
+2024-12-17 19:59:49,696 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: web developer
+2024-12-17 19:59:50,019 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: web developer
+2024-12-17 19:59:51,239 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: python developer
+2024-12-17 19:59:51,751 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: python developer
+2024-12-17 19:59:52,071 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: python developer
+2024-12-17 19:59:53,191 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: devops
+2024-12-17 19:59:53,716 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: devops
+2024-12-17 19:59:54,096 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: devops
+2024-12-17 19:59:55,412 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: cloud engineer
+2024-12-17 19:59:56,001 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: cloud engineer
+2024-12-17 19:59:56,421 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: cloud engineer
+2024-12-17 19:59:57,821 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: qa engineer
+2024-12-17 19:59:58,521 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: qa engineer
+2024-12-17 19:59:58,894 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: qa engineer
+2024-12-17 20:00:00,513 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: test engineer
+2024-12-17 20:00:00,999 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: test engineer
+2024-12-17 20:00:01,346 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: test engineer
+2024-12-17 20:00:02,633 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: data scientist
+2024-12-17 20:00:03,118 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: data scientist
+2024-12-17 20:00:03,469 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: data scientist
+2024-12-17 20:00:04,839 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: machine learning
+2024-12-17 20:00:05,415 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: machine learning
+2024-12-17 20:00:05,634 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: machine learning
+2024-12-17 20:00:06,825 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: ai developer
+2024-12-17 20:00:07,440 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: ai developer
+2024-12-17 20:00:07,661 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: ai developer
+2024-12-17 20:00:08,925 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: cybersecurity
+2024-12-17 20:00:09,443 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: cybersecurity
+2024-12-17 20:00:09,691 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: cybersecurity
+2024-12-17 20:00:11,043 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category programming for keyword: security engineer
+2024-12-17 20:00:11,545 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category devops-sysadmin for keyword: security engineer
+2024-12-17 20:00:11,789 - JobAlertNotifier - INFO - [weworkremotely:211] - Scraping WWR category quality-assurance for keyword: security engineer
+2024-12-17 20:00:12,955 - JobAlertNotifier - INFO - [main:66] - Found 0 jobs from WeWorkRemotelyScraper
+2024-12-17 20:00:12,955 - JobAlertNotifier - INFO - [main:72] - Found 0 total jobs across all sources
+2024-12-17 20:00:12,956 - JobAlertNotifier - INFO - [filters:238] - No jobs to filter
+2024-12-17 20:00:12,956 - JobAlertNotifier - INFO - [main:76] - Found 0 matching jobs for Romania
+2024-12-17 20:01:39,616 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: intern
+2024-12-17 20:02:00,445 - JobAlertNotifier - ERROR - [weworkremotely:291] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 20:02:00,446 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: intern
+2024-12-17 20:02:03,413 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: intern
+2024-12-17 20:03:03,431 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: internship
+2024-12-17 20:03:03,914 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: internship
+2024-12-17 20:03:04,134 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: internship
+2024-12-17 20:03:05,317 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: junior
+2024-12-17 20:03:05,788 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: junior
+2024-12-17 20:03:05,997 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: junior
+2024-12-17 20:03:07,287 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: entry level
+2024-12-17 20:03:07,769 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: entry level
+2024-12-17 20:03:07,986 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: entry level
+2024-12-17 20:03:09,232 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: graduate
+2024-12-17 20:03:09,701 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: graduate
+2024-12-17 20:03:09,911 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: graduate
+2024-12-17 20:03:11,167 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: trainee
+2024-12-17 20:03:11,674 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: trainee
+2024-12-17 20:03:11,881 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: trainee
+2024-12-17 20:03:13,135 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: student
+2024-12-17 20:03:13,614 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: student
+2024-12-17 20:03:13,821 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: student
+2024-12-17 20:03:15,069 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: entry-level
+2024-12-17 20:03:15,603 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: entry-level
+2024-12-17 20:03:15,885 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: entry-level
+2024-12-17 20:03:17,584 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: junior developer
+2024-12-17 20:03:18,063 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: junior developer
+2024-12-17 20:03:18,614 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: junior developer
+2024-12-17 20:03:19,940 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: software engineer
+2024-12-17 20:03:20,449 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: software engineer
+2024-12-17 20:03:20,659 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: software engineer
+2024-12-17 20:03:21,918 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: developer
+2024-12-17 20:03:22,453 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: developer
+2024-12-17 20:03:22,658 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: developer
+2024-12-17 20:03:24,224 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: programmer
+2024-12-17 20:03:24,722 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: programmer
+2024-12-17 20:03:24,941 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: programmer
+2024-12-17 20:03:26,184 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: full stack
+2024-12-17 20:03:26,696 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: full stack
+2024-12-17 20:03:26,918 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: full stack
+2024-12-17 20:03:28,132 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: frontend
+2024-12-17 20:03:28,618 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: frontend
+2024-12-17 20:03:28,834 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: frontend
+2024-12-17 20:03:30,517 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: backend
+2024-12-17 20:03:30,999 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: backend
+2024-12-17 20:03:31,218 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: backend
+2024-12-17 20:03:32,543 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: web developer
+2024-12-17 20:03:33,060 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: web developer
+2024-12-17 20:03:33,286 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: web developer
+2024-12-17 20:03:34,485 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: python developer
+2024-12-17 20:03:35,035 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: python developer
+2024-12-17 20:03:35,243 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: python developer
+2024-12-17 20:03:36,478 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: devops
+2024-12-17 20:03:36,978 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: devops
+2024-12-17 20:03:37,197 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: devops
+2024-12-17 20:03:38,281 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: cloud engineer
+2024-12-17 20:03:38,771 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: cloud engineer
+2024-12-17 20:03:38,980 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: cloud engineer
+2024-12-17 20:03:40,222 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: qa engineer
+2024-12-17 20:03:40,883 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: qa engineer
+2024-12-17 20:03:41,097 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: qa engineer
+2024-12-17 20:03:42,531 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: test engineer
+2024-12-17 20:03:43,015 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: test engineer
+2024-12-17 20:03:43,224 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: test engineer
+2024-12-17 20:03:44,541 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: data scientist
+2024-12-17 20:03:45,037 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: data scientist
+2024-12-17 20:03:45,264 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: data scientist
+2024-12-17 20:03:47,460 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: machine learning
+2024-12-17 20:03:47,966 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: machine learning
+2024-12-17 20:03:48,190 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: machine learning
+2024-12-17 20:03:49,446 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: ai developer
+2024-12-17 20:03:49,927 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: ai developer
+2024-12-17 20:03:50,144 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: ai developer
+2024-12-17 20:03:51,292 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: cybersecurity
+2024-12-17 20:03:51,768 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: cybersecurity
+2024-12-17 20:03:51,993 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: cybersecurity
+2024-12-17 20:03:53,173 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: security engineer
+2024-12-17 20:03:53,656 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: security engineer
+2024-12-17 20:03:53,896 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: security engineer
+2024-12-17 20:03:55,096 - JobAlertNotifier - INFO - [main:66] - Found 1 jobs from WeWorkRemotelyScraper
+2024-12-17 20:03:55,096 - JobAlertNotifier - INFO - [main:72] - Found 1 total jobs across all sources
+2024-12-17 20:03:55,097 - JobAlertNotifier - INFO - [filters:241] - Filtering 1 jobs
+2024-12-17 20:03:55,097 - JobAlertNotifier - INFO - [filters:286] - Filtered 1 jobs down to 0 matches
+2024-12-17 20:03:55,097 - JobAlertNotifier - INFO - [main:76] - Found 0 matching jobs for Romania
+2024-12-17 20:06:23,553 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: intern
+2024-12-17 20:06:44,345 - JobAlertNotifier - ERROR - [weworkremotely:291] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 20:06:44,345 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: intern
+2024-12-17 20:06:47,307 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: intern
+2024-12-17 20:07:47,374 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: internship
+2024-12-17 20:07:47,839 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: internship
+2024-12-17 20:07:48,048 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: internship
+2024-12-17 20:07:49,172 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: junior
+2024-12-17 20:07:49,659 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: junior
+2024-12-17 20:07:49,873 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: junior
+2024-12-17 20:07:51,063 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: entry level
+2024-12-17 20:07:51,540 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: entry level
+2024-12-17 20:07:51,753 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: entry level
+2024-12-17 20:07:52,946 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: graduate
+2024-12-17 20:07:53,589 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: graduate
+2024-12-17 20:07:53,814 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: graduate
+2024-12-17 20:07:54,980 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: trainee
+2024-12-17 20:07:55,450 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: trainee
+2024-12-17 20:07:55,659 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: trainee
+2024-12-17 20:07:57,023 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: student
+2024-12-17 20:07:57,493 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: student
+2024-12-17 20:07:57,708 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: student
+2024-12-17 20:07:58,938 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: entry-level
+2024-12-17 20:07:59,449 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: entry-level
+2024-12-17 20:07:59,662 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: entry-level
+2024-12-17 20:08:00,896 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: junior developer
+2024-12-17 20:08:01,366 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: junior developer
+2024-12-17 20:08:01,925 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: junior developer
+2024-12-17 20:08:03,340 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: software engineer
+2024-12-17 20:08:03,848 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: software engineer
+2024-12-17 20:08:04,057 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: software engineer
+2024-12-17 20:08:05,209 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: developer
+2024-12-17 20:08:05,681 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: developer
+2024-12-17 20:08:05,896 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: developer
+2024-12-17 20:08:07,090 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: programmer
+2024-12-17 20:08:07,669 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: programmer
+2024-12-17 20:08:07,927 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: programmer
+2024-12-17 20:08:09,373 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: full stack
+2024-12-17 20:08:09,855 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: full stack
+2024-12-17 20:08:10,073 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: full stack
+2024-12-17 20:08:11,297 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: frontend
+2024-12-17 20:08:11,820 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: frontend
+2024-12-17 20:08:12,036 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: frontend
+2024-12-17 20:08:13,503 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: backend
+2024-12-17 20:08:13,986 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: backend
+2024-12-17 20:08:14,196 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: backend
+2024-12-17 20:08:15,466 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: web developer
+2024-12-17 20:08:15,958 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: web developer
+2024-12-17 20:08:16,189 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: web developer
+2024-12-17 20:08:17,390 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: python developer
+2024-12-17 20:08:17,888 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: python developer
+2024-12-17 20:08:18,106 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: python developer
+2024-12-17 20:08:19,253 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: devops
+2024-12-17 20:08:19,728 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: devops
+2024-12-17 20:08:19,944 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: devops
+2024-12-17 20:08:21,313 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: cloud engineer
+2024-12-17 20:08:21,897 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: cloud engineer
+2024-12-17 20:08:22,107 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: cloud engineer
+2024-12-17 20:08:23,280 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: qa engineer
+2024-12-17 20:08:23,779 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: qa engineer
+2024-12-17 20:08:23,987 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: qa engineer
+2024-12-17 20:08:25,110 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: test engineer
+2024-12-17 20:08:25,598 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: test engineer
+2024-12-17 20:08:25,818 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: test engineer
+2024-12-17 20:08:26,968 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: data scientist
+2024-12-17 20:08:27,457 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: data scientist
+2024-12-17 20:08:27,666 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: data scientist
+2024-12-17 20:08:28,822 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: machine learning
+2024-12-17 20:08:29,300 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: machine learning
+2024-12-17 20:08:29,525 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: machine learning
+2024-12-17 20:08:30,696 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: ai developer
+2024-12-17 20:08:31,189 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: ai developer
+2024-12-17 20:08:31,395 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: ai developer
+2024-12-17 20:08:32,543 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: cybersecurity
+2024-12-17 20:08:33,074 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: cybersecurity
+2024-12-17 20:08:33,307 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: cybersecurity
+2024-12-17 20:08:34,613 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category programming for keyword: security engineer
+2024-12-17 20:08:35,094 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category devops-sysadmin for keyword: security engineer
+2024-12-17 20:08:35,340 - JobAlertNotifier - INFO - [weworkremotely:219] - Scraping WWR category quality-assurance for keyword: security engineer
+2024-12-17 20:08:36,578 - JobAlertNotifier - INFO - [main:74] - Found 1 jobs from WeWorkRemotelyScraper
+2024-12-17 20:08:36,578 - JobAlertNotifier - INFO - [main:80] - Found 1 total jobs across all sources
+2024-12-17 20:08:36,579 - JobAlertNotifier - INFO - [filters:241] - Filtering 1 jobs
+2024-12-17 20:08:36,579 - JobAlertNotifier - INFO - [filters:286] - Filtered 1 jobs down to 0 matches
+2024-12-17 20:08:36,579 - JobAlertNotifier - INFO - [main:84] - Found 0 matching jobs for Romania
+2024-12-17 20:10:38,998 - JobAlertNotifier - INFO - [weworkremotely:216] - Scraping all jobs from WWR category programming
+2024-12-17 20:10:59,743 - JobAlertNotifier - ERROR - [weworkremotely:284] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 20:10:59,744 - JobAlertNotifier - INFO - [weworkremotely:299] - Found 14 total jobs, filtered to 14 matching jobs
+2024-12-17 20:10:59,744 - JobAlertNotifier - INFO - [main:74] - Found 14 jobs from WeWorkRemotelyScraper
+2024-12-17 20:10:59,744 - JobAlertNotifier - INFO - [main:80] - Found 14 total jobs across all sources
+2024-12-17 20:10:59,744 - JobAlertNotifier - INFO - [filters:241] - Filtering 14 jobs
+2024-12-17 20:10:59,745 - JobAlertNotifier - INFO - [filters:286] - Filtered 14 jobs down to 0 matches
+2024-12-17 20:10:59,745 - JobAlertNotifier - INFO - [main:84] - Found 0 matching jobs for Romania
+2024-12-17 20:13:08,429 - JobAlertNotifier - INFO - [weworkremotely:216] - Scraping all jobs from WWR category programming
+2024-12-17 20:13:29,025 - JobAlertNotifier - ERROR - [weworkremotely:284] - Error processing job item: 'NoneType' object has no attribute 'text'
+2024-12-17 20:13:29,026 - JobAlertNotifier - INFO - [weworkremotely:299] - Found 14 total jobs, filtered to 14 matching jobs
+2024-12-17 20:13:29,026 - JobAlertNotifier - INFO - [main:74] - Found 14 jobs from WeWorkRemotelyScraper
+2024-12-17 20:13:29,026 - JobAlertNotifier - INFO - [main:80] - Found 14 total jobs across all sources
+2024-12-17 20:13:29,027 - JobAlertNotifier - INFO - [filters:229] - Filtering 14 jobs
+2024-12-17 20:13:29,027 - JobAlertNotifier - INFO - [filters:274] - Filtered 14 jobs down to 14 matches
+2024-12-17 20:13:29,027 - JobAlertNotifier - INFO - [main:84] - Found 14 matching jobs for Romania
+2024-12-17 20:13:29,027 - JobAlertNotifier - INFO - [main:90] - Removed 0 duplicate jobs
+2024-12-17 20:13:30,660 - JobAlertNotifier - INFO - [email_notifier:335] - Successfully sent email notification for 14 jobs
+2024-12-17 20:13:30,661 - JobAlertNotifier - INFO - [telegram_notifier:190] - Sending notification for 14 jobs in 3 chunks
+2024-12-17 20:13:31,183 - JobAlertNotifier - INFO - [telegram_notifier:208] - Successfully sent Telegram notification in 3 parts
