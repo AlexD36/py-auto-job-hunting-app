@@ -154,3 +154,7 @@ Contributions are welcome! Here’s how you can contribute to the development of
 - **Job boards**: For providing job listings.
 
 ---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
